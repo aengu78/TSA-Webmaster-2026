@@ -5,225 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Okla-Home-A</title>
     <link rel = "stylesheet" href = "../styles\style.css">
+    <link rel = "stylesheet" href = "../styles\navigation.css">
+    <link rel = "stylesheet" href = "../styles\home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <style>
-        body {
-            margin: 0;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url(../images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            overflow: hidden;
-        }
-
-
-        header {
-            position: fixed; 
-            left: 0;
-            right: 0;
-            top: 0;
-            height: 8%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            /*background: linear-gradient(rgba(33, 15, 63, 0.397), rgba(46, 34, 66, 0));*/
-            z-index: 100;
-        }
-
-
-
-        nav {
-            display: flex;
-            flex-direction: row;
-            margin-left: 7%;
-            height: 100%;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        #landing {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100vw;
-            height: 100vh;
-            z-index: 0;
-        }
-
-
-        .page-link-div {
-            padding-left: 10%;
-            padding-right: 10%;
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            background: linear-gradient(rgba(33, 15, 63, 0.397), rgba(46, 34, 66, 0));
-        }
-
-
-
-        .page-link-div a {
-            inherits: false;
-            color: white; 
-            font-size: 120%;
-            text-decoration: none;
-            font-family: Manrope, Roboto, Arial;
-            text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-        }
-
-        .page-link-div a::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 1px;
-            width: 0;
-            height: 1.5px;
-            background-color: white;
-            transition: width .2s ease-in-out;
-            box-shadow: rgba(8, 4, 29, 0.349) 1px 1px 2px;
-        }
-
-        .page-link-div a:hover::after {
-            width: 100%;
-        }
-
-        #search-div {
-            margin-right: 10%;
-            padding-right: 1.8%;
-            padding-left: 2.5%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            height: 100%;
-            background: linear-gradient(rgba(33, 15, 63, 0.397), rgba(46, 34, 66, 0));
-        }
-
-
-
-        #mag-glass{
-            height: 1.5em;
-            padding-left: .5em;
-            cursor: pointer;
-        }
-
-        #search-bar {
-            opacity: 1;
-            font-size: 120%;
-            text-decoration: none;
-            font-family: Manrope, Roboto, Arial;
-            text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
-            background-color: rgba(0, 85, 119, 0);
-            border: none;
-            border-bottom: solid white 2px;
-            outline: none;
-            caret-color: white;
-        }
-
-        ::placeholder {
-            color: white;
-        }
-
-        #search-button {
-            border: none;
-            background-color: rgba(0, 85, 119, 0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .big-text {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            top: 53%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 65%;
-            background: linear-gradient(rgba(33, 15, 63, 0.521), rgba(46, 34, 66, 0));
-
-        }
-
-        .big-text h1, .big-text h2 {
-            color: rgb(255, 255, 255);
-            text-shadow: rgb(0, 0, 0) 0px 0px 30px;
-            
-
-        }
-
-        .big-text h2 {
-            font-family: "Playfair Display", 'Times New Roman', Times, serif;
-            font-size: 3em;
-            margin-bottom: -1em;
-            margin-top: 1.3em;
-            text-shadow: rgb(0, 0, 0) 0px 0px 15px;
-        }
-
-        .big-text h1 {
-            font-family: Oswald;
-            font-size: 15em;
-            margin-top: .1em;
-            text-shadow: rgb(0, 0, 0) 0px 0px 30px;
-            
-
-        }
-
-
-
-
     </style>
-    <main>
-        <!--<img id = "hero-img" src = "../images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg">-->
-        <header>
+    <header>
             <nav>
-                <div class = "page-link-div">
+                <div class = "page-link-div shadow-bg">
                     <a href = "index.html">Home</a>
                 </div>
-                <div class = "page-link-div">
+                <div class = "page-link-div shadow-bg">
                     <a href = "directory.html">Directory</a>
                 </div>
-                <div class = "page-link-div">
+                <div class = "page-link-div shadow-bg">
                     <a href = "highlights.html">Highlights</a>
                 </div>
-                <div class = "page-link-div">
+                <div class = "page-link-div shadow-bg">
                     <a href = "references.html">References</a>
                 </div>
             </nav>
-            <div id = "search-div">
+            <div id = "search-div" class = "shadow-bg">
                 <form action="/submit-page" method="POST" type>
                     <input type="text" id="search-bar" placeholder = "Search...">
                 </form>
-                <button id = "search-button">
+                <button id = "search-button" >
                     <img src = "../icons\magnifying-glass-svgrepo-com (1).svg" id = "mag-glass">
                 </button>
             </div>
 
         </header>
+    <main>
+        <!--<img id = "hero-img" src = "../images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg">-->
+        
 
         <div id = "landing">
-            <div class = big-text>
-                <h2 id = "welcome">
-                    Welcome to your 
-                </h2>
+            <div class = big-text shadow-bg>
                 <h1 id = "site-name">
-                    Okla-<u>Home</u>.
+                    Highlights
                 </h1>
             </div>
         </div>

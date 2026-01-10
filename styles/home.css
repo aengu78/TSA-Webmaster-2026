@@ -1,0 +1,55 @@
+#landing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+
+
+
+.big-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    background: linear-gradient(rgba(33, 15, 63, 0.521), rgba(46, 34, 66, 0));
+
+}
+
+
+
+h1,  h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+    
+
+}
+
+ h2 {
+    font-family: "Josefin Slab", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: -1em;
+    margin-top: 1.3em;
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+}
+
+ h1 {
+    font-family: Oswald;
+    font-size: 25vh;
+    margin-top: .1em;
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+    
+
+}

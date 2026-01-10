@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.shadow-bg {
+    background: linear-gradient(rgba(33, 15, 63, 0.521), rgba(46, 34, 66, 0));
+}
+
+.shadow-bg-reverse {
+    background: linear-gradient(rgba(46, 34, 66, 0), rgba(33, 15, 63, 0.521));
+}

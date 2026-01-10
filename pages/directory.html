@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okla-Home-A</title>
+    <link rel = "stylesheet" href = "../styles\style.css">
+    <link rel = "stylesheet" href = "../styles\navigation.css">
+    <link rel = "stylesheet" href = "../styles\directory.css">
+    <link rel = "stylesheet" href = "../styles\home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style = "background-image: url(../images/AdobeStock_76071575.jpeg); background-position: center;">
+    <style>
+        #directory-fade {
+            height: 10vh;
+            width: 100%;
+            background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+            transform: translateY(-9vh);
+        }
+
+        #directory-wrapper {
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            transform: translateY(-9.05vh);
+        }
+
+        #directory-search-bar {
+            
+        }
+        
+    </style>
+    <header>
+            <nav>
+                <div class = "page-link-div shadow-bg">
+                    <a href = "index.html">Home</a>
+                </div>
+                <div class = "page-link-div shadow-bg">
+                    <a href = "directory.html">Directory</a>
+                </div>
+                <div class = "page-link-div shadow-bg">
+                    <a href = "highlights.html">Highlights</a>
+                </div>
+                <div class = "page-link-div shadow-bg">
+                    <a href = "references.html">References</a>
+                </div>
+            </nav>
+            <div id = "search-div" class = "shadow-bg">
+                <form action="/submit-page" method="POST" type>
+                    <input type="text" id="search-bar" placeholder = "Search...">
+                </form>
+                <button id = "search-button">
+                    <img src = "../icons\magnifying-glass-svgrepo-com (1).svg" id = "mag-glass">
+                </button>
+            </div>
+
+        </header>
+
+    <main>
+        
+
+        <div id = "directory-bg">
+            <div class = shadow-bg directory-title-div>
+                <h1 id = "directory-title">
+                    Directory
+                </h1>
+            </div>
+        </div>
+
+        <div id = "directory-fade">
+        </div>
+        <div id = "directory-wrapper">
+            <div id = "directory-search-div">
+                <form action="/submit-page" method="POST" type>
+                    <input type="text" id="directory-search-bar" placeholder = "Search...">
+                </form>
+            </div>
+        </div>
+
+        
+    </main>
+
+</body>
+</html>
