@@ -1,0 +1,350 @@
+{
+  "card-infos": [
+    {
+      "name": "211",
+      "category": "General",
+      "number": "211",
+      "site": "https://www.211oklahoma.org",
+      "area": "Statewide",
+      "address": "N/A",
+      "desc": "2-1-1 Oklahoma offers information and referral across the spectrum of human need including, but not limited to, food pantries, affordable housing, health resources, child care, after-school programs, caregiver support, financial programs, literacy, and job programs."
+    },
+    {
+      "name": "Legal Aid Services of Oklahoma",
+      "category": "General",
+      "number": "888-534-5243",
+      "site": "https://legalaidok.org/",
+      "area": "Statewide",
+      "address": "N/A",
+      "desc": "If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance."
+    },
+    {
+      "name": "PCs for People",
+      "category": "General",
+      "number": "651-354-2552",
+      "site": "https://www.pcsforpeople.org/",
+      "area": "State-wide",
+      "address": "2492 Doswell Ave., St. Paul, MN 55108",
+      "desc": "If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance."
+    },
+    {
+      "name": "Regional Food Bank of Oklahoma",
+      "category": "Food",
+      "number": "405-972-1111",
+      "site": "https://www.regionalfoodbank.org/",
+      "area": "Western Oklahoma",
+      "address": "3355 S Purdue Ave, Oklahoma City, OK 73179",
+      "desc": "If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance."
+    },
+    {
+      "name": "Project 66",
+      "category": "Food",
+      "number": "405-341-1353",
+      "site": "https://www.project66.org/",
+      "area": "Edmond",
+      "address": "2612 S Kelly Ave, Edmond, OK 73013",
+      "desc": "At Project 66, we are committed to making a difference in the lives of individuals and families facing food insecurity. Through our programs, we strive to create a sustainable impact and bring hope to those in need."
+    },
+    {
+      "name": "Food Bank of Eastern Oklahoma",
+      "category": "Food",
+      "number": "918-585-2800",
+      "site": "https://okfoodbank.org/",
+      "area": "Eastern Oklahoma",
+      "address": "1304 N. Kenosha Avenue, Tulsa, OK 74106",
+      "desc": "There is enough food in our community for everyone. With the right resources, hunger is a problem we can solve together."
+    },
+    {
+      "name": "Metropolitan Library System",
+      "category": "Education",
+      "number": "405-231-8650",
+      "site": "https://www.metrolibrary.org/",
+      "area": "Oklahoma County",
+      "address": "Multiple",
+      "desc": "The Metropoolitan Library System is a public librarysystem consisting of 19 libraries that serves Oklahoma County, Oklahoma."
+    },
+    {
+      "name": "Eastern Oklahoma Library System",
+      "category": "Education",
+      "number": "918-683-2846",
+      "site": "https://www.metrolibrary.org/",
+      "area": "Eastern Oklahoma",
+      "address": "14 E. Shawnee, Muskogee, OK",
+      "desc": "The Eastern Oklahoma Library System is a multi-county organization providing public library service through fifteen libraries in six counties."
+    },
+    {
+      "name": "Pioneer Library System",
+      "category": "Education",
+      "number": "405-801-4521",
+      "site": "https://www.metrolibrary.org/",
+      "area": "Cleveland, McClain, and Pottawomie Counties",
+      "address": "300 Norman Center Court Norman, OK 73072",
+      "desc": "The Pioneer Library System serves the residents of Cleveland, McClain, and Pottawatomie Counties through twelve branches in 10 communities and Information Stations in rural communities."
+    },
+    {
+      "name": "Southeast Oklahoma Library System",
+      "category": "Education",
+      "number": "918-426-0456",
+      "site": "https://www.seolibraries.com/",
+      "area": "Southeastern Oklahoma",
+      "address": "2820 N. Main Street McAlester, OK  74501",
+      "desc": "The Southeast Oklahoma Library System strives to be the place where people explore yesterday's heritage, today's information, and tomorrow's dreams."
+    },
+    {
+      "name": "Southern Oklahoma Library System",
+      "category": "Education",
+      "number": "580-223-3164",
+      "site": "https://southernoklibrarysystem",
+      "area": "Southeastern Oklahoma",
+      "address": "Southern Oklahoma Library System, 601 Railway Express, Ardmore, OK 73401",
+      "desc": "The Southern Oklahoma Library System serves over 97,000 citizens across five counties with eight libraries located in Ardmore, Atoka, Davis, Healdton, Marietta, Sulphur, Tishomingo and Wilson."
+    },
+    {
+      "name": "Southern Prairie Library System",
+      "category": "Education",
+      "number": "580-477-2890",
+      "site": "https://spls.lib.ok.us/",
+      "area": "Jackson and Harmon Counties",
+      "address": "421 North Hudson Altus, OK 73521",
+      "desc": "To meet the informational needs of all ages, the Southern Prairie Library System commits its resources to the promotion of reading and lifelong learning."
+    },
+    {
+      "name": "Tulsa City-County Library",
+      "category": "Education",
+      "number": "918-549-7323",
+      "site": "https://www.tulsalibrary.org/",
+      "area": "Tulsa City County",
+      "address": "400 Civic Center, Tulsa, OK 74103",
+      "desc": "The Tulsa City-County Library strives to promote lifelong learning and literacy in all forms.  Learn more about the goals, vision, and core values of the Library."
+    },
+    {
+      "name": "Western Plains Library System",
+      "category": "Education",
+      "number": "580-323-0974 ",
+      "site": "https://wplibs.com/",
+      "area": "Custer, Dewey, Roger Mills, and Washita Counties",
+      "address": "501 S. 28th Street, Clinton, OK 73601",
+      "desc": "Western Plains Library System strives to maintain a welcoming and safe environment."
+    },
+    {
+      "name": "Oklahoma Library of Digital Resources",
+      "category": "Education",
+      "number": "405-528-3571",
+      "site": "https://www.ossba.org/services/okldr-2/#",
+      "area": "State-wide",
+      "address": "501 S. 28th Street, Clinton, OK 73601",
+      "desc": "The resources within the Oklahoma Library of Digital Resources are high-quality digital content vetted by Oklahoma teachers and support Oklahoma Academic Standards."
+    },
+    {
+      "name": "Open Learn OK",
+      "category": "Education",
+      "number": "405-528-3571",
+      "site": "https://www.ossba.org/services/okldr-2/#",
+      "area": "State-wide",
+      "address": "501 S. 28th Street, Clinton, OK 73601",
+      "desc": "Open educational resources (OER) will equip the Oklahoma State System for Higher Education and Oklahoma institutions to create opportunities for diverse, equal, and collaborative knowledge creation and dissemination for students through no-cost, openly-licensed materials."
+    },
+    {
+      "name": "Ambassador House",
+      "category": "Community Housing",
+      "number": "405-228-4042",
+      "site": "N/A",
+      "area": "Oklahoma City",
+      "address": "1336 NE 9th St. Oklahoma City, OK 73101",
+      "desc":"Transitional living for women and children only."
+    },
+    {
+      "name": "Catholic Charities Archdiocese of OKC - Holy Family Home",
+      "category": "Community Housing",
+      "number": "405-741-7419",
+      "site": "https://www.catholiccharitiesok.org/",
+      "area": "OKC",
+      "address": "1232 N. Classen Blvd. Oklahoma City, OK",
+      "desc":"Assists homeless women and families in transitioning into permanent housing."
+    },
+    {
+      "name": "Catholic Charities Archdiocese of OKC - Sanctuary Women's Development Center",
+      "category": "Community Housing",
+      "number": "405-526-2321",
+      "site": "https://www.catholiccharitiesok.org/",
+      "area": "Oklahoma City",
+      "address": "2133 SW 11th St. Oklahoma City, OK 73108",
+      "desc":"Day shelter serving women age 18+. Provides social services to homeless and at-risk women and their children including employment resources and resume building, trauma counseling, nutritious beverages and snacks, community food pantry and clothing closet, and a safe place to rest and refocus."
+    },
+    {
+      "name": "City Care - Pershing Center",
+      "category": "Community Housing",
+      "number": "405-609-2400",
+      "site": "http://www.citycareinc.org/",
+      "area": "Oklahoma City",
+      "address": "2400 General Pershing Blvd. Oklahoma City, OK 73107",
+      "desc": "Provides food and shelter for the homeless and housing for low-income families."
+    },
+    {
+      "name": "City Rescue Mission",
+      "category": "Community Housing",
+      "number": "405-232-2709",
+      "site": "http://www.cityrescue.org/",
+      "area": "Oklahoma City",
+      "address": "800 W California, Oklahoma City, OK 73106",
+      "desc":"Emergency shelter for homeless men, women, and families, and provides crisis counseling, clothing, rehab programs, and meals."
+    },
+    {
+      "name": "Compassionate Hands",
+      "category": "Community Housing",
+      "number": "405-354-9591",
+      "site": "http://www.compassionatehandsyukon.com/",
+      "area": "Yukon",
+      "address": "119 S 6th St. Yukon, OK 73099",
+      "desc":"Referrals to community resources, utility assistance, and housing and emergency shelter for zip code 73099."
+    },
+    {
+      "name": "Family Function",
+      "category": "Community Housing",
+      "number": "405-272-0726",
+      "site": "N/A",
+      "area": "Oklahoma City",
+      "address": "203 NE 50th St. Oklahoma City, OK 73105",
+      "desc":"Temporary, emergency youth shelter for children ages 12-17."
+    },
+    {
+      "name": "Food and Shelter, Inc.",
+      "category": "Community Housing",
+      "number": "405-360-4954",
+      "site": "http://www.foodandshelterinc.org/",
+      "area": "Norman",
+      "address": "201 Reed Ave. Norman, OK 73069",
+      "desc":"Food, housing, and emergency services for people in crisis."
+    },
+    {
+      "name": "Grace Rescue Mission",
+      "category": "Community Housing",
+      "number": "405-232-5756",
+      "site": "http://www.cbaokc.net/grace_rescue_mission",
+      "area": "Oklahoma City",
+      "address": "2205 Exchange Ave. Oklahoma City, OK 73108",
+      "desc":"Shelter housing for men only (min. age of 19 with current photo ID)."
+    },
+    {
+      "name": "Hope Community Services, Inc.",
+      "category": "Community Housing",
+      "number": "405-634-4400",
+      "site": "http://www.hopecsi.org/",
+      "area": "Oklahoma City",
+      "address": "6100 S Walker, Oklahoma City, OK 73139",
+      "desc":"Community living programs to assist homeless, mentally ill adults. Serving Cleveland, Canadian, and Oklahoma county residents."
+    },
+    {
+      "name": "Jesus House",
+      "category": "Community Housing",
+      "number": "405-232-7164",
+      "site": "http://www.jesushouseokc.org/",
+      "area": "Oklahoma City",
+      "address": "1335 W Sheridan Ave. Oklahoma City, OK 73106",
+      "desc":"Emergency shelter for single men and women age 18+. Provides clothing, meals, and other assistance."
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    },
+    {
+      "name": "",
+      "category": "",
+      "number": "",
+      "site": "",
+      "area": "",
+      "address": "",
+      "desc":""
+    }
+
+
+
+
+  ]
+}
