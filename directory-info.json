@@ -244,107 +244,105 @@
       "desc":"Emergency shelter for single men and women age 18+. Provides clothing, meals, and other assistance."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Mid-Del Youth Shelter",
+      "category": "Community Housing",
+      "number": "405-424-0177",
+      "site": "http://www.mid-delyouth.org/emergency-childrens-shelter",
+      "area": "Midwest City",
+      "address": "2600 N Air Depot, Midwest City, OK 73141",
+      "desc":"Emergency youth shelter (open 24 hours, 7 days a week) for children and adolescents (ages 0-17)."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Neighborhood Services Organization (NSO)",
+      "category": "Community Housing",
+      "number": "405-236-0452",
+      "site": "http://www.nsookc.org/",
+      "area": "Oklahoma City",
+      "address": "431 SW 11th St. Oklahoma City, OK 73109",
+      "desc":"Transitional housing programs for single men (ages 18-23), homeless families with multiple children, homeless, pregnant young women (ages 18-23), and women caring for a child under 5"
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Oklahoma City Housing Authority",
+      "category": "Community Housing",
+      "number": "405-239-7551",
+      "site": "http://www.ochanet.org/",
+      "area": "Oklahoma City",
+      "address": "1700 NE 4th, Oklahoma City, OK 73117",
+      "desc":"Help with resume writing and budgeting skills."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Salvation Army of Central OK",
+      "category": "Community Housing",
+      "number": "405-246-1100",
+      "site": "http://www.salvationarmyokcac.org/",
+      "area": "Oklahoma City",
+      "address": "1001 N Pennsylvania, Oklahoma City, OK 73107",
+      "desc":"Transitional housing, emergency shelter for men, and emergency family and women’s shelter. Serves Oklahoma, Canadian, and Cleveland counties."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Salvation Army Adult Rehabilitation Center",
+      "category": "Community Housing",
+      "number": "405-236-3677",
+      "site": "N/A",
+      "area": "Oklahoma City",
+      "address": "2041 NW 7th St. Oklahoma City, OK 73106",
+      "desc":"Rehabilitation work therapy program for adult male substance abusers age 21+. "
+    },
+
+    {
+      "name": "Sisu Youth, Inc.",
+      "category": "Community Housing",
+      "number": "405-459-7478",
+      "site": "http://www.sisuyouth.org/",
+      "area": "Oklahoma City",
+      "address": "1225 Sovereign Row, Ste. 105, Oklahoma City, OK 73108",
+      "desc":"Day shelter connecting metro teens with support for basic needs like food, clothing, and personal care items. For older teens under age 18."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Sunbeam Family Services",
+      "category": "Community Housing",
+      "number": "405-528-7721",
+      "site": "http://www.sunbeamfamilyservices.org/",
+      "area": "Oklahoma City",
+      "address": "1100 NW 14th St. Oklahoma City, OK 73106",
+      "desc":"Emergency and contract foster care for abused/ neglected children, individual, marital, and family counseling, and senior services."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Transition House, Inc.",
+      "category": "Community Housing",
+      "number": "405-360-7926",
+      "site": "http://www.thouse.org/",
+      "area": "Norman",
+      "address": "700 Asp, Ste. 2, Norman, OK 73069",
+      "desc":"Transitional living programs and drop-in center. "
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Upward Transitions",
+      "category": "Community Housing",
+      "number": "405-232-5507",
+      "site": "http://www.upwardtransitions.org/",
+      "area": "Oklahoma City",
+      "address": "1134 W Main St. Oklahoma City, OK 73106",
+      "desc":"Provides assistance to families and individuals who face threats to financial stability or who are homeless or on the verge of becoming homeless."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Westtown Homeless Resource and Day Center",
+      "category": "Community Housing",
+      "number": "405-415-8410",
+      "site": "http://www.homelessalliance.org/",
+      "area": "Oklahoma City",
+      "address": "1724 NW 4th St. Oklahoma City, OK 73106",
+      "desc":"Provides housing and supportive services to homeless and at-risk families, including meals, health clinic, computers, showers, and on-site social services."
     },
     {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
-    },
-    {
-      "name": "",
-      "category": "",
-      "number": "",
-      "site": "",
-      "area": "",
-      "address": "",
-      "desc":""
+      "name": "Catholic Charities",
+      "category": "Payment Assistance Agencies",
+      "number": "800-375-8514",
+      "site": "http://catholiccharitiesok.org/",
+      "area": "Statewide",
+      "address": "N/A",
+      "desc":"N/A"
     }
-
-
-
 
   ]
 }

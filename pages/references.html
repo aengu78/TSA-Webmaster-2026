@@ -6,13 +6,59 @@
     <title>Okla-Home-A</title>
     <link rel = "stylesheet" href = "../styles\style.css">
     <link rel = "stylesheet" href = "../styles\navigation.css">
-    <link rel = "stylesheet" href = "../styles\home.css">
+    <link rel = "stylesheet" href = "../styles\references.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style = "background-image: url(../images/download.webp); background-size: cover; background-position-y: -25vh; background-attachment: fixed;">
     <style>
+        #references-wrapper {
+            display: flex;
+            width: 70%;
+            flex-direction: column;
+            background-color: rgba(33, 15, 63, 0.521);
+            transform: translateY(-9.01vh);
+            padding-left: 15%;
+            padding-right: 15%;
+            margin-bottom: -9.00vh;
+
+        }
+
+        #parallel-divs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #worklog-div {
+            width: 20vw;
+        }
+
+        #copyright-div {
+            width: 20vw;
+        }
+
+        #references-fade {
+            height: 10vh;
+            width: 100%;
+            background: linear-gradient(rgba(46, 34, 66, 0), rgba(33, 15, 63, 0.521));
+            /*background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));*/
+            transform: translateY(-9vh);
+        }
+
+        h3 {
+            padding-left: 2vw;
+        }
+
+        #space-filler {
+            width: 100vw;
+            background-color: rgba(33, 15, 63, 0.521);
+            height: 9.00vh;
+        }
+
+
+
     </style>
     <header>
             <nav>
@@ -37,18 +83,71 @@
                     <img src = "../icons\magnifying-glass-svgrepo-com (1).svg" id = "mag-glass">
                 </button>
             </div>
+            
 
         </header>
     <main>
+
         
 
-        <div id = "landing" >
-            <div class = big-text shadow-bg>
-                <h1 id = "site-name">
+        <div id = "references-bg" background-image = "" >
+            <div class = shadow-bg references-title-div>
+                <h1 id = "references-title">
                     References
                 </h1>
             </div>
         </div>
+
+        <div id = "references-fade">
+        </div>
+
+        <div id = "references-wrapper"> 
+            <div id = "parallel-divs">
+                <div id = "worklog-wrapper">
+                    <h3>
+                        Worklog
+                    </h3>
+                </div>
+                <div id = "copyright-wrapper">
+                    <h3>
+                        Copyright Checklist
+                    </h3>
+                </div>
+            </div>
+            <div id = "image-refs-container">
+                <h3>
+                    Image References
+                </h3>
+                <div id = "image-refs">
+                    <p>https://unsplash.com/photos/eagle-eye-view-time-lapse-city-and-streets-OSNZjXCF5VE</p>
+                    <p>https://togetherok.okpolicy.org/visits-to-the-capitol/</p>
+                    <p>https://npr.brightspotcdn.com/dims4/default/f872b30/2147483647/strip/true/crop/2048x1367+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F87%2F3e%2F9fd2b9d84544b0a0aac36f58c6b3%2F486725100-1082409230594720-8670526034048634198-n.jpg </p>
+                    <p></p>
+                </div>
+
+            </div>
+            <div id = "content-refs-container">
+                <h3>
+                    Content References
+                </h3>
+                <div id = "content-refs">
+                    <p>https://okcommunitycares.org/wp-content/uploads/filr/3166/Statewide%20Resources%20Guide%20Full%20-%20Final.pdf</p>
+                    <p>https://www.project66.org/</p>
+                    <p>https://okfoodbank.org/</p>
+                    <p>https://en.wikipedia.org/wiki/Metropolitan_Library_System_(Oklahoma)</p>
+                    <p>https://www.seolibraries.com/</p>
+                    <p>https://spls.lib.ok.us/</p>
+                    <p>https://www.tulsalibrary.org/about</p>
+                    <p>https://wplibs.com/library-policies/</p>
+                    <p>https://oer.ocolearnok.org/about</p>
+                </div>
+
+            </div>
+        </div>
+        <div id = "space-filler"></div>
+
+        
+        
 
         
     </main>

@@ -24,14 +24,21 @@
 #directory-search-bar {
     opacity: 1;
     margin: 3vh 0;
-    font-size: 1.5vh;
+    font-size: 2vh;
     text-decoration: none;
     font-family: Manrope, Roboto, Arial;
-    text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
-    background-color: rgb(194, 238, 255);
+    background-color: rgb(255, 255, 255);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     border-bottom: solid white 2px;
     outline: none;
     caret-color: black;
+    width: 60vw;
+    padding: 7px 30px; 
+    box-shadow: 
+    rgba(8, 4, 29, 0.274) 0px 2px 9px
 }
+
+#directory-search-bar::placeholder {
+            color: black;
+        }

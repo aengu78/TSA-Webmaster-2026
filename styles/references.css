@@ -1,0 +1,23 @@
+#references-bg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    z-index: 0;
+    transform: translateX(-30%)
+}
+
+.references-title-div {
+    height: 25vh;
+}
+
+#references-title {
+    font-size: 8vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 3vh;
+}
+

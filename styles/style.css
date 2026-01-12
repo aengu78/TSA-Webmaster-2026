@@ -17,3 +17,36 @@ body {
 .shadow-bg-reverse {
     background: linear-gradient(rgba(46, 34, 66, 0), rgba(33, 15, 63, 0.521));
 }
+
+h1,  h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+
+}
+
+ h2 {
+    font-family: "Josefin Slab", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: -1em;
+    margin-top: 1.3em;
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+}
+
+ h1 {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-size: 25vh;
+    margin-top: .1em;
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+}
+
+p {
+    font-family: Manrope, Roboto, Arial;
+    color: white;
+    font-size: 2vh;
+}
+
+h3 {
+    font-family: "Josefin Slab", 'Times New Roman', Times, serif;
+    color: white;
+}
