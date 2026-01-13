@@ -9,8 +9,10 @@
     <link rel = "stylesheet" href = "../styles\directory.css">
     <link rel = "stylesheet" href = "../styles\home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../scripts/direct.js" defer></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>DirDoc</title>
 </head>
 <body style = "background-image: url(../images/AdobeStock_76071575.jpeg); background-position: center;">
     <style>
@@ -63,12 +65,27 @@
         <div class = "content-wrapper">
             <div id = "directory-search-div">
                 <form action="/submit-page" method="POST" type>
-                    <input type="text" id="directory-search-bar" placeholder = "What can we help you find today?">
+                    <label> for <search_heading>Search through our recomendations</search_heading></label>
+                    <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
+                    <input type="search" id="directory-search-bar" placeholder = "What can we help you find today?" data-search>
                 </form>
             </div>
         </div>
 
         <div id = "cards-wrapper">
+            <!--(base outline to make new cards)<div class="card1">
+                <div class="header"> name of cool stuff</div>
+                <div class="body">Cool stuff about a org we want!</div>
+            </div>
+ -->
+            <div class="card1">
+                <div class="header"org-names> wings cool club special</div>
+                <div class="body"orgs-des>love wingsCool stuffwings  about a org we want1!</div>
+            </div>
+            <div class="card2">
+                <div class="header"org-names> bolwero cool somthinf special</div>
+                <div class="body"orgs-des>Cool stuff about a org we bowl  want2! has bowlong</div>
+            </div>
 
         </div>
 
