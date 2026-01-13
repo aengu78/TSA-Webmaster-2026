@@ -11,8 +11,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style = "background-image: url(../images/TurnerFalls_FreestylePhotoshoot75_2019.jpg); background-size: cover; background-attachment: fixed; ">    
     <style>
+        #highlights-wrapper {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .highlights-text-left, .highlights-text-right {
+            height: 60vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            margin: 3vh 0;
+        }
+
+
+        .highlight-desc {
+            background-color: white;
+            border-radius: 2vh;
+            height: 100%;
+            flex: 1;
+            padding: 2vw;
+            box-sizing: border-box;
+
+        }
+
+        .highlight-desc h3 {
+            color: rgba(33, 15, 63, 1);
+            display: inline-block;
+            margin-bottom: 2.5vh;
+            margin-top: 0;
+        }
+
+        .highlight-text-div {
+            background-color: rgb(223, 228, 233);
+            border-radius: 2vh;
+            box-sizing: border-box;
+            padding: .5vw 1.2vw;
+            height: 90%;
+
+        }
+
+        .highlight-text-div p {
+            color:rgba(33, 15, 63, 0.496);
+            margin-top: .5vh;
+        }
+
+        .highlight-img {
+            background-size: cover;
+            flex: 2;
+            border-radius: 2vh;
+        }
+
+        .highlight-spacer {
+            flex: .1;
+        }
     </style>
     <header>
             <nav>
@@ -43,12 +99,75 @@
         <!--<img id = "hero-img" src = "../images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg">-->
         
 
-        <div id = "landing">
-            <div class = big-text shadow-bg>
-                <h1 id = "site-name">
+        <div class = "bg">
+            <div class = shadow-bg subpage-title-div>
+                <h1 class = "subpage-title">
                     Highlights
                 </h1>
             </div>
+        </div>
+
+        <div class = "content-fade"></div>
+
+        <div class = "content-wrapper">
+            <h3>
+                Foreword
+            </h3>
+            <p>At Okla-Home, we believe that every resource provides great value to our community. Below is a selection of resources that users have found particularly helpful.</p>
+            
+            <div id = "highlights-wrapper">
+
+                <div class = "highlights-text-left">
+                    <div class = "highlight-desc">
+                        <h3>
+                            Oklahoma Regional Food Bank
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p>
+                                The Oklahoma Regional Food Bank provides food to dhfisdhfidhfishd
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "highlight-spacer"></div>
+                    <div class = "highlight-img" style = "background-image: url(../images/DJI_0496-scaled-e1731536676416.jpg);"></div>
+                </div>
+
+                <div class = "highlights-text-right">
+                    <div class = "highlight-img"></div>
+                    <div class = "highlight-desc">
+                        <h3>
+
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "highlights-text-left">
+                    <div class = "highlight-desc">
+                        <h3>
+
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class = "highlight-img"></div>
+                </div>
+
+                <div class = "highlights-text-right">
+                    <div class = "highlight-img"></div>
+                    <div class = "highlight-desc">
+                        <h3>
+
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         

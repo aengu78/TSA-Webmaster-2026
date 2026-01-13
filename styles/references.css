@@ -10,17 +10,6 @@
     transform: translateX(-30%)
 }
 
-.references-title-div {
-    height: 25vh;
-}
-
-#references-title {
-    font-size: 8vh;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    margin-bottom: 3vh;
-}
-
 #references-wrapper {
     display: flex;
     width: 70%;
@@ -52,19 +41,6 @@
     width: 20vw;
 }
 
-#references-fade {
-    height: 10vh;
-    width: 100%;
-    background: linear-gradient(rgba(46, 34, 66, 0), rgba(33, 15, 63, 0.521));
-    /*background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));*/
-    transform: translateY(-9vh);
-}
-
-#space-filler {
-    width: 100vw;
-    background-color: rgba(33, 15, 63, 0.521);
-    height: 9.00vh;
-}
 
 .embedded {
     width: 35vw;
