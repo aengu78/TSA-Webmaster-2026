@@ -26,7 +26,15 @@
             justify-content: space-between;
             align-content: space-between;
             margin: 3vh 0;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
         }
+
+        .highlight-desc, .highlight-img{
+            box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+        }
+
+        .highlight-desc::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
 
 
         .highlight-desc {
@@ -34,30 +42,30 @@
             border-radius: 2vh;
             height: 100%;
             flex: 1;
-            padding: 2vw;
+            padding: 1vw;
             box-sizing: border-box;
-
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
         }
 
         .highlight-desc h3 {
             color: rgba(33, 15, 63, 1);
             display: inline-block;
-            margin-bottom: 2.5vh;
-            margin-top: 0;
+            margin: .5vh 0 2.5vh 1vw;
         }
 
         .highlight-text-div {
             background-color: rgb(223, 228, 233);
             border-radius: 2vh;
             box-sizing: border-box;
-            padding: .5vw 1.2vw;
-            height: 90%;
-
+            height: 94.5%;
+            padding: 1vw;
         }
 
         .highlight-text-div p {
-            color:rgba(33, 15, 63, 0.496);
-            margin-top: .5vh;
+            color:rgba(33, 15, 63, 0.629);
+            margin-top: 0;
         }
 
         .highlight-img {
@@ -110,22 +118,23 @@
         <div class = "content-fade"></div>
 
         <div class = "content-wrapper">
-            <h3>
+            <h3 style = "text-shadow: rgba(8, 4, 29, 0.926) 0px 0px 4px">
                 Foreword
             </h3>
-            <p>At Okla-Home, we believe that every resource provides great value to our community. Below is a selection of resources that users have found particularly helpful.</p>
+            <p style = "text-shadow: rgba(8, 4, 29, 0.926) 0px 0px 4px">At Okla-Home, we believe that every resource provides great value to our community. Below is a selection of resources that users have found particularly helpful.</p>
             
             <div id = "highlights-wrapper">
 
                 <div class = "highlights-text-left">
                     <div class = "highlight-desc">
                         <h3>
-                            Oklahoma Regional Food Bank
+                            The Regional Food Bank of Oklahoma
                         </h3>
                         <div class = "highlight-text-div">
                             <p>
-                                The Oklahoma Regional Food Bank provides food to dhfisdhfidhfishd
+                                "The Regional Food Bank is leading the fight against hunger in Oklahoma and envisions a state where no one goes hungry. Founded in 1980, the Regional Food Bank distributes food through a network of more than 1,300 community-based partner agencies and schools in 53 counties in central and western Oklahoma. The Regional Food Bank not only distributes food, it is a leader in educating the public on hunger, advocating for those living with hunger and providing access to additional resources."
                             </p>
+                            <p>&emsp;&emsp;- The Regional Food Bank of Oklahoma</p>
                         </div>
                     </div>
                     <div class = "highlight-spacer"></div>
@@ -133,42 +142,58 @@
                 </div>
 
                 <div class = "highlights-text-right">
-                    <div class = "highlight-img"></div>
+                    <div class = "highlight-img" style = "background-image: url(../images/Oklahoma_City\,_OK_USA_-_Ronald_J._Norick_Downtown_Library_-_panoramio.jpg); background-position: center;"></div>
+
+                    <div class = "highlight-spacer"></div>
+
                     <div class = "highlight-desc">
                         <h3>
-
+                            The Metropolitan Library System
                         </h3>
                         <div class = "highlight-text-div">
-                            <p></p>
+                            <p>The Metropolitan Library System empowers and connects diverse communities by providing equitable access to knowledge, technology, and spaces to learn, grow and connect. They prioritize providing exceptional connections by offering materials that reflect community demand and the diversity of the world - in good condition, easy to access, and available in a variety of traditional and emerging formats with minimal wait times. They also endeavor to preserve and promote local history by collecting, digitizing, and promoting primary source materials. They aim to engage the public through educational programs, exhibitions, and community storytelling. </p>
+                            <p>&emsp;&emsp;- The Metropolitan Library System</p>
                         </div>
                     </div>
                 </div>
+
                 <div class = "highlights-text-left">
                     <div class = "highlight-desc">
                         <h3>
-
+                            City Rescue Mission
                         </h3>
                         <div class = "highlight-text-div">
-                            <p></p>
+                            <p>For more than 65 years, City Rescue Mission has helped those experiencing homelessness in the Oklahoma City metro. A hot meal and safe place to stay are just the beginning. They act as the first stop on the path back to hope, and their mission is to lead their community by serving people experiencing and at risk of homelessness with help, hope, and healing, in the spirit of excellence. </p>
+                            <p>&emsp;&emsp;- City Rescue Mission</p>
                         </div>
                     </div>
-                    <div class = "highlight-img"></div>
+
+                    <div class = "highlight-spacer"></div>
+
+                    <div class = "highlight-img" style = "background-image: url(../images/aboutCRM.jpg); background-position: center;"></div>
                 </div>
 
                 <div class = "highlights-text-right">
-                    <div class = "highlight-img"></div>
+                    <div class = "highlight-img" style = "background-image: url(../images/give-statements-header-1536x617.jpg.webp); background-position: center;"></div>
+
+                    <div class = "highlight-spacer"></div>
+
                     <div class = "highlight-desc">
                         <h3>
-
+                            Christian Service Center
                         </h3>
                         <div class = "highlight-text-div">
-                            <p></p>
+                            <p>
+                                The Christian Service Center provides various programs to serve and connect individuals throughout the OKC area, including, but not limited to: their baby room, which provides diapers, formula, clothing, and other necessary items for expecting mothers; their fresh market, which serves 30 families fruits, vegetables, and bakery items; and their Trinity Legal Clinic, which can assist with cases ranging from wrongful denial of jobs, immigration issues, minor criminal issues, and unfair housing practices.
+                            </p>
+                            <p>&emsp;&emsp;- Christian Service Center</p>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div class = 'space-filler' style = "transform: translateY(9vh)"></div>
         </div>
+        
 
         
     </main>
