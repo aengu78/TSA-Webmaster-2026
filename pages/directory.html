@@ -15,12 +15,22 @@
 <title>DirDoc</title>
 </head>
 <body style = "background-image: url(../images/AdobeStock_76071575.jpeg); background-position: center;">
-    <style>
+   <style>
 
-
-        #cards-wrapper {
-            background-color: rgba(33, 15, 63, 0.521);
-        }
+  /* made the cards look pretty*/
+    #cards-wrapper {
+        background-color: rgba(255, 255, 255, 0.521);
+        display: grid;
+        gap: .25rem;
+        grid-template-columns: repeat(auto_fill, minmax(150px, 1fr));
+        margin-top: 1rem;
+    
+   }
+   #cards-made{
+    border: 1px solid black;
+    background-color: rgba(110, 48, 211, 0.521);
+    padding: .5rem;
+   }
         
     </style>
     <header>
@@ -64,11 +74,12 @@
         </div>
         <div class = "content-wrapper">
             <div id = "directory-search-div">
-                <form action="/submit-page" method="POST" type>
+                <!-- got rid of form bc it wasnt needed and causing issues
+                <form action="/submit-page" method="POST" type>-->
                     <label> for <search_heading>Search through our recomendations</search_heading></label>
                     <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
                     <input type="search" id="directory-search-bar" placeholder = "What can we help you find today?" data-search>
-                </form>
+                <!--</form>-->
             </div>
         </div>
 
@@ -77,19 +88,39 @@
                 <div class="header"> name of cool stuff</div>
                 <div class="body">Cool stuff about a org we want!</div>
             </div>
- -->
-            <div class="card1">
-                <div class="header"org-names> wings cool club special</div>
-                <div class="body"orgs-des>love wingsCool stuffwings  about a org we want1!</div>
-            </div>
-            <div class="card2">
-                <div class="header"org-names> bolwero cool somthinf special</div>
-                <div class="body"orgs-des>Cool stuff about a org we bowl  want2! has bowlong</div>
+            
+            all the cards i made for the orgs, still need to add some of the orgs and catagories -->
+            <div id="cards-made">
+                <div class="org-211">
+                    <div class="header"org-names>211</div>
+                    <div class="body"orgs-des>2-1-1 Oklahoma offers information and referral across the spectrum of human need including, but not limited to, food pantries, affordable housing, health resources, child care, after-school programs, caregiver support, financial programs, literacy, and job programs.</div>
+                    <div class= "body" orgs-Location> N/A</div> 
+                    <div class="body" orgs-site>https://www.211oklahoma.org</div>
+                    <div class="body" org-cat>General</div>
+                </div>
             </div>
 
-        </div>
+            
+            <div id="cards-made">
+                <div class="org-LegAid">
+                    <div class="header"org-names>Legal Aid Services of Oklahoma</div>
+                    <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
+                    <div class="body" orgs-Location>N/A</div>
+                    <div class="body" orgs-site>https://legalaidok.org/</div>
+                    <div class="body" org-cat>General</div>
+                </div>
+            </div>
 
-        
+            <div id="cards-made">
+                <div class="org-Pcs">
+                    <div class="header"org-names>PCs for People</div>
+                    <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
+                    <div class="body"orgs-Location>2492 Doswell Ave., St. Paul, MN 55108</div>
+                    <div class="body"orgs-site>https://www.pcsforpeople.org/</div>
+                    <div class="body"org-cat>General</div>
+                </div>
+            </div>
+        </div>  
     </main>
 
 </body>
