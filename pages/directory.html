@@ -18,9 +18,18 @@
    <style>
 
 
-        #cards-wrapper {
-            background-color: rgba(33, 15, 63, 0.521);
-            
+    #cards-wrapper {
+        background-color: rgba(255, 255, 255, 0.521);
+        display: grid;
+        gap: .25rem;
+        grid-template-columns: repeat(auto_fill, minmax(150px, 1fr));
+        margin-top: 1rem;
+    
+   }
+   #cards-made{
+    border: 1px solid black;
+    background-color: rgba(110, 48, 211, 0.521);
+    padding: .5rem;
    }
         
     </style>
@@ -88,7 +97,10 @@
                     <div class="body" orgs-site>https://www.211oklahoma.org</div>
                     <div class="body" org-cat>General</div>
                 </div>
-                <p>--------------------</p>
+            </div>
+
+            
+            <div id="cards-made">
                 <div class="org-LegAid">
                     <div class="header"org-names>Legal Aid Services of Oklahoma</div>
                     <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
@@ -96,7 +108,9 @@
                     <div class="body" orgs-site>https://legalaidok.org/</div>
                     <div class="body" org-cat>General</div>
                 </div>
-                <p>--------------------</p>
+            </div>
+
+            <div id="cards-made">
                 <div class="org-Pcs">
                     <div class="header"org-names>PCs for People</div>
                     <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
@@ -104,28 +118,6 @@
                     <div class="body"orgs-site>https://www.pcsforpeople.org/</div>
                     <div class="body"org-cat>General</div>
                 </div>
-                <!----
-                <div class="card3">
-                    <div class="header"org-names> somthinf</div>
-                    <div class="body"orgs-des>C want2! has</div>
-                </div>
-                <div class="card3">
-                    <div class="header"org-names> bol</div>
-                    <div class="body"orgs-des>! has bowlong</div>
-                </div>
-                <div class="card4">
-                    <div class="header"org-names> bolwero special</div>
-                    <div class="body"orgs-des>Cool stuffwant2! has bowlong</div>
-                </div>
-                <div class="card5">
-                    <div class="header"org-names> her name</div>
-                    <div class="body"orgs-des> want2! has bowlong</div>
-                </div>
-                <div class="card6">
-                    <div class="header"org-names> my name</div>
-                    <div class="body"orgs-des>bowlong</div>
-                </div>
-                -->
             </div>
         </div>  
     </main>
