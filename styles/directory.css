@@ -31,7 +31,18 @@
 #directory-search-bar::placeholder {
             color: black;
         }
-/*ENZO MADE TO HIDE THE CARDS*/
+/*ENZO MADE stuff */
+.org-cards{
+    display: grid;
+    gap: .25rem;
+    grid-template-columns: repeat(auto_fill, minmax(150px, 1fr));
+    margin-top: 1rem;
+}
+.card{
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+}
 .hide {
   display: none !important;
 }
