@@ -17,7 +17,7 @@
 <body style = "background-image: url(../images/AdobeStock_76071575.jpeg); background-position: center;">
    <style>
 
-
+  /* made the cards look pretty*/
     #cards-wrapper {
         background-color: rgba(255, 255, 255, 0.521);
         display: grid;
@@ -74,11 +74,12 @@
         </div>
         <div class = "content-wrapper">
             <div id = "directory-search-div">
-                <form action="/submit-page" method="POST" type>
+                <!-- got rid of form bc it wasnt needed and causing issues
+                <form action="/submit-page" method="POST" type>-->
                     <label> for <search_heading>Search through our recomendations</search_heading></label>
                     <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
                     <input type="search" id="directory-search-bar" placeholder = "What can we help you find today?" data-search>
-                </form>
+                <!--</form>-->
             </div>
         </div>
 
