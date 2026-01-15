@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Okla-Home-A</title>
+    <title>Okla-Home</title>
     <link rel = "stylesheet" href = "/styles/style.css">
     <link rel = "stylesheet" href = "/styles/navigation.css">
     <link rel = "stylesheet" href = "/styles/home.css">
@@ -23,10 +23,14 @@
         }
     </style>
     <header>
-            <nav>
-                <div class = "page-link-div shadow-bg">
-                    <a href = "index.html">Home</a>
+            <div id = "search-div">
+                <div class = "page-link-div shadow-bg" style = "min-width: 150%;">
+                    <a href = "index.html" style = "padding-right: 20%; padding-left: 20%; white-space: nowrap;">Okla-Home</a>
                 </div>
+            </div>
+            
+            <nav>
+                
                 <div class = "page-link-div shadow-bg">
                     <a href = "pages/directory.html">Directory</a>
                 </div>
@@ -37,14 +41,7 @@
                     <a href = "pages/references.html">References</a>
                 </div>
             </nav>
-            <div id = "search-div" class = "shadow-bg">
-                <form action="/submit-page" method="POST" type>
-                    <input type="text" id="search-bar" placeholder = "Search...">
-                </form>
-                <button id = "search-button" >
-                    <img src = "/icons\magnifying-glass-svgrepo-com (1).svg" id = "mag-glass">
-                </button>
-            </div>
+            
 
         </header>
     <main>

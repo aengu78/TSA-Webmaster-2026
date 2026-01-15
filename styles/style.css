@@ -93,3 +93,10 @@ h3 {
     background-color: rgba(33, 15, 63, 0.521);
     height: 9.00vh;
 }
+
+h1 {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    margin-top: .1em;
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+
+}

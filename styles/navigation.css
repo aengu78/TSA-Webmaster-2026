@@ -17,7 +17,7 @@
         nav {
             display: flex;
             flex-direction: row;
-            margin-left: 7%;
+            margin-right: 20%;
             height: 100%;
             align-items: center;
             justify-content: space-around;
@@ -63,13 +63,22 @@
         }
 
         #search-div {
-            margin-right: 10%;
+            margin-left: 10%;
             padding-right: 1.8%;
             padding-left: 2.5%;
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
             height: 100%;
+        }
+
+
+
+        #search-div .page-link-div {
+            
+            display: flex;
+            justify-content: center;
         }
 
 

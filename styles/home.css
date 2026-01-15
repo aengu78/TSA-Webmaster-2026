@@ -44,12 +44,7 @@ h1,  h2 {
     text-shadow: rgb(0, 0, 0) 0px 0px 15px;
 }
 
- h1 {
-    font-family: "Oswald", Arial, Helvetica, sans-serif;
-    margin-top: .1em;
-    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
-
-}
+ 
 
 #site-name {
     font-size: 10vw;
