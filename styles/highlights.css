@@ -1,0 +1,64 @@
+#highlights-wrapper {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlights-text-left, .highlights-text-right {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 3vh 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.highlight-desc, .highlight-img{
+    box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+}
+
+.highlight-desc::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
+
+
+.highlight-desc {
+    background-color: white;
+    border-radius: 2vh;
+    height: 100%;
+    flex: 1;
+    padding: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.highlight-desc h3 {
+    color: rgba(33, 15, 63, 1);
+    display: inline-block;
+    margin: .5vh 0 2.5vh 1vw;
+}
+
+.highlight-text-div {
+    background-color: rgb(223, 228, 233);
+    border-radius: 2vh;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1vw;
+}
+
+.highlight-text-div p {
+    color:rgba(33, 15, 63, 0.629);
+    margin-top: 0;
+}
+
+.highlight-img {
+    background-size: cover;
+    flex: 2;
+    border-radius: 2vh;
+}
+
+.highlight-spacer {
+    flex: .1;
+}

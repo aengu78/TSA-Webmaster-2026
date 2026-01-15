@@ -22,7 +22,7 @@
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 65%;
+    width: 65vw;
     background: linear-gradient(rgba(33, 15, 63, 0.521), rgba(46, 34, 66, 0));
 
 }
@@ -38,7 +38,7 @@ h1,  h2 {
  h2 {
     font-family: "Josefin Slab", 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5vw;
     margin-bottom: -1em;
     margin-top: 1.3em;
     text-shadow: rgb(0, 0, 0) 0px 0px 15px;
@@ -46,8 +46,11 @@ h1,  h2 {
 
  h1 {
     font-family: "Oswald", Arial, Helvetica, sans-serif;
-    font-size: 25vh;
     margin-top: .1em;
     text-shadow: rgb(0, 0, 0) 0px 0px 30px;
 
+}
+
+#site-name {
+    font-size: 10vw;
 }

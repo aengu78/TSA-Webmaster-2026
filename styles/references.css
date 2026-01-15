@@ -33,19 +33,12 @@
     align-items: center;
 }
 
-#worklog-div {
-    width: 20vw;
-}
-
-#copyright-div {
-    width: 20vw;
-}
-
-
 .embedded {
     width: 35vw;
     height: 70vh;
-    border-radius: 4px;
+    border-radius: 2vh;
+    box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+    border: none;
 }
 
 

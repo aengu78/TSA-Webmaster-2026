@@ -19,18 +19,62 @@
 
   /* made the cards look pretty*/
     #cards-wrapper {
-        background-color: rgba(255, 255, 255, 0.521);
         display: grid;
         gap: .25rem;
-        grid-template-columns: repeat(auto_fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+        gap: 2vw;
         margin-top: 1rem;
+        height: 100%;
+        max-width: 80vw;
     
-   }
-   #cards-made{
-    border: 1px solid black;
-    background-color: rgba(110, 48, 211, 0.521);
-    padding: .5rem;
-   }
+}
+#cards-made{
+    background-color: white;
+    border-radius: 2vh;
+    height: 100%;
+    flex: 1;
+    padding: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+}
+
+
+
+#directory-search-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.org-names {
+    color: rgba(33, 15, 63, 1);
+    display: inline-block;
+    margin: .5vh 0 2.5vh 0;
+}
+
+.service-details {
+        background-color: rgb(223, 228, 233);
+        border-radius: 2vh;
+        box-sizing: border-box;
+        height: auto;
+        padding: 1vw;
+        overflow-y: scroll;
+        
+}
+
+
+.service-details::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
+
+.body {
+        color:rgba(33, 15, 63, 0.629);
+        margin-top: 0;
+}
+
+.orgs-site-link {
+    overflow: auto; 
+}
         
     </style>
     <header>
@@ -76,14 +120,13 @@
             <div id = "directory-search-div">
                 <!-- got rid of form bc it wasnt needed and causing issues
                 <form action="/submit-page" method="POST" type>-->
-                    <label> for <search_heading>Search through our recomendations</search_heading></label>
+                    <h3 style = "margin-bottom: 0; font-weight: 500;"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
                     <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
                     <input type="search" id="directory-search-bar" placeholder = "What can we help you find today?" data-search>
                 <!--</form>-->
             </div>
-        </div>
 
-        <div id = "cards-wrapper">
+            <div id = "cards-wrapper">
             <!--(base outline to make new cards)<div class="card1">
                 <div class="header"> name of cool stuff</div>
                 <div class="body">Cool stuff about a org we want!</div>
@@ -92,35 +135,49 @@
             all the cards i made for the orgs, still need to add some of the orgs and catagories -->
             <div id="cards-made">
                 <div class="org-211">
-                    <div class="header"org-names>211</div>
-                    <div class="body"orgs-des>2-1-1 Oklahoma offers information and referral across the spectrum of human need including, but not limited to, food pantries, affordable housing, health resources, child care, after-school programs, caregiver support, financial programs, literacy, and job programs.</div>
-                    <div class= "body" orgs-Location> N/A</div> 
-                    <div class="body" orgs-site>https://www.211oklahoma.org</div>
-                    <div class="body" org-cat>General</div>
+                    <h3 class="header org-names">211</h3>
+                    <div class = "service-details">
+                        <p class="body orgs-des" >2-1-1 Oklahoma offers information and referral across the spectrum of human need including, but not limited to, food pantries, affordable housing, health resources, child care, after-school programs, caregiver support, financial programs, literacy, and job programs.</p>
+                        <p class="body orgs-location"><b>Address:</b> N/A</p> 
+                        <p class="body orgs-site"><b>Website:</b> <a href = "https://www.211oklahoma.org" class = "orgs-site-link">https://www.211oklahoma.org</a></p>
+                        <p class="body org-cat"><b>Category:</b> General</p>
+                    </div>
                 </div>
             </div>
 
             
             <div id="cards-made">
                 <div class="org-LegAid">
-                    <div class="header"org-names>Legal Aid Services of Oklahoma</div>
-                    <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
-                    <div class="body" orgs-Location>N/A</div>
-                    <div class="body" orgs-site>https://legalaidok.org/</div>
-                    <div class="body" org-cat>General</div>
+                    <h3 class="header org-names">Legal Aid Services of Oklahoma</h3>
+                    <div class = "service-details">
+                        <p class="body orgs-des">If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</p>
+                        <p class="body orgs-location"><b>Address:</b> N/A</p>
+                        <p class="body orgs-site"><b>Website:</b> <a href = "https://legalaidok.org/" class = "orgs-site-link">https://legalaidok.org/</a></p>
+                        <p class="body org-cat"><b>Category:</b> General</p>
+                    </div>
                 </div>
             </div>
 
             <div id="cards-made">
                 <div class="org-Pcs">
-                    <div class="header"org-names>PCs for People</div>
-                    <div class="body"orgs-des>If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</div>
-                    <div class="body"orgs-Location>2492 Doswell Ave., St. Paul, MN 55108</div>
-                    <div class="body"orgs-site>https://www.pcsforpeople.org/</div>
-                    <div class="body"org-cat>General</div>
+                    <h3 class="header org-names">PCs for People</h3>
+                    <div class = "service-details">
+                        <p class="body orgs-des">If you’re worried about being evicted or already in the process of eviction, contact Legal Aid Services of Oklahoma for assistance.</p>
+                        <p class="body orgs-location"><b>Address:</b> 2492 Doswell Ave., St. Paul, MN 55108</p>
+                        <p class="body orgs-site"><b>Website:</b> <a href = "https://www.pcsforpeople.org/" class = "orgs-site-link">https://www.pcsforpeople.org/</a></p>
+                        <p class="body org-cat"><b>Category:</b> General</p>
+                    </div>
                 </div>
             </div>
+
+
+            
         </div>  
+        <div class = "space-filler" style = "transform: translateY(8.955vh);"></div>
+        </div>
+        
+
+        
     </main>
 
 </body>
