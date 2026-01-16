@@ -4,7 +4,6 @@
 }
 
 #directory-title {
-    font-size: 8vh;
     padding-left: 3vw;
     padding-right: 3vw;
     margin-bottom: 3vh;
@@ -13,7 +12,7 @@
 #directory-search-bar {
     opacity: 1;
     margin: 3vh 0;
-    font-size: 2vh;
+    font-size: 2em;
     text-decoration: none;
     font-family: Manrope, Roboto, Arial;
     background-color: rgb(255, 255, 255);

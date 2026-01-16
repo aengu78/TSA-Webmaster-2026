@@ -38,7 +38,14 @@
     display: flex;
     flex-direction: column;
     box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+    max-height: 30vh;
+    overflow-y: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        overflow-wrap: break-word;
 }
+
+#cards-made::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
 
 
 
@@ -52,6 +59,7 @@
     color: rgba(33, 15, 63, 1);
     display: inline-block;
     margin: .5vh 0 2.5vh 0;
+    
 }
 
 .service-details {
@@ -60,14 +68,11 @@
         box-sizing: border-box;
         height: auto;
         padding: 1vw;
-        overflow-y: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        overflow-wrap: break-word;
+        
 }
 
 
-.service-details::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
+
 
 .body {
         color:rgba(33, 15, 63, 0.629);
@@ -118,7 +123,7 @@
             <div id = "directory-search-div">
                 <!-- got rid of form bc it wasnt needed and causing issues
                 <form action="/submit-page" method="POST" type>-->
-                    <h3 style = "margin-bottom: 0; font-weight: 500;"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
+                    <h3 style = "margin-bottom: 0;"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
                     <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
                     <input type="search" id="directory-search-bar" placeholder = "Try searching for 'food' or 'housing'!" data-search>
                 <!--</form>-->

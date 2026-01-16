@@ -43,13 +43,13 @@ h1,  h2 {
 p {
     font-family: Manrope, Roboto, Arial;
     color: white;
-    font-size: 2vh;
+    font-size: 2em;
 }
 
 h3 {
     font-family: "Josefin Slab", 'Times New Roman', Times, serif;
     color: white;
-    font-size: 3vh;
+    font-size: 3em;
 }
 
 .bg {
@@ -69,7 +69,7 @@ h3 {
 }
 
 .subpage-title {
-    font-size: 8vh;
+    font-size: 7em;
     padding-left: 3vw;
     padding-right: 3vw;
     margin-bottom: 3vh;
@@ -116,6 +116,7 @@ h1 {
 
 a {
     text-decoration: none;
+
 }
 
 div {
