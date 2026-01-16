@@ -22,15 +22,12 @@
             height: 10vh;
         }
 
-        #home-block-1 {
+        #home-block-1, #home-block-3{
             background-color: rgb(23, 19, 43);
         }
 
-        #home-block-2 {
+        #home-block-2, #home-block-4{
             background-color: rgb(248, 248, 242);
-        }
-        #home-block-3 {
-            background-color: rgb(23, 19, 43);
         }
 
 
@@ -61,7 +58,6 @@
         }
 
         #find-resources {
-            
             background-color: rgb(62, 219, 219);
             color: rgb(35, 24, 53);
             
@@ -74,13 +70,13 @@
 
         .homepage-button {
             font-family: Manrope, Arial, Helvetica, sans-serif;
-            font-size: 1.7vh;
+            font-size: 1.7rem;
             padding: 15px 20px;
             margin-left: 20px;
             transition: width .5s;
             border: none;
             border-radius: 100vh;
-            transition: padding .2s;
+            transition: padding .1s, box-shadow .1s, color .1s;
             text-decoration: none;
         }
 
@@ -89,6 +85,15 @@
         .homepage-button:hover {
             cursor: pointer;
             padding: 18px 22px;
+        }
+
+        #suggestion-submit {
+            padding: 15px 20px;
+        }
+
+        #suggestion-submit:hover {
+            background-color: rgba(248, 248, 242, 0.836);
+            box-shadow: rgba(8, 4, 29, 0.521) 3px 3px 10px;
         }
 
         .home-block-img {
@@ -142,6 +147,46 @@
             from {translate: -100%;}
             to {translate: 0;}
         }
+
+        #home-block-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #suggestion-div {
+            background-color: rgb(129, 105, 173);
+            width: 50vw;
+            border-radius: 2vh;
+            border: none;
+            padding-left: 3em;
+            padding-right: 3em;
+            padding-bottom: 3em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #suggestion-div h3 {
+            margin-bottom: 0;
+        }
+
+        #suggestion-div input {
+            box-sizing: border-box;
+            width: 100%;
+            height: 4em;
+            padding-left: 4em;
+            border-radius: 4em;
+            border: none;
+            margin-bottom: 2em;
+            max-height: 4em;
+        }
+
+        #suggestion-input::placeholder {
+            color: rgba(0, 0, 0, 0.425);
+            font-family: Manrope, Arial, Helvetica, sans-serif;
+            font-size: 1.7em;
+        }
+
 
 
     </style>
@@ -212,7 +257,7 @@
 
         <div id = "home-block-2" class = "home-block">
             <div id = "home-block-2-parallel">
-                <div id = "who-we-are-img" class = " home-block-img" style = "background-image: url(/images/hillary-ungson-TdpSX7XAcKo-unsplash.jpg); box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;;"></div>
+                <div id = "who-we-are-img" class = " home-block-img" style = "background-image: url(/images/hillary-ungson-TdpSX7XAcKo-unsplash.jpg); box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;"></div>
                 
                 <div></div>
                 
@@ -297,6 +342,18 @@
 
             </div>
 
+        </div>
+
+        <div id = "home-block-4" class = "home-block">
+            <div id = "suggestion-div" style = "box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;">
+                <h3 class = "text-shadowed">Have an idea?</h3>
+                <p class = "text-shadowed">Send us suggestions for what to add to the page below!</p>
+                <input type = "text" id = "suggestion-input" placeholder = "We'd love to hear your thoughts!">
+                <button class = "homepage-button" id = "suggestion-submit" style = "align-self: end;">
+                    Submit
+                </button>
+            </div>
+            
         </div>
 
         
