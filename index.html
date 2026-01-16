@@ -24,8 +24,15 @@
 
         #home-block-1 {
             background-color: rgb(23, 19, 43);
-            
         }
+
+        #home-block-2 {
+            background-color: rgb(248, 248, 242);
+        }
+        #home-block-3 {
+            background-color: rgb(23, 19, 43);
+        }
+
 
         .home-block {
             width: 100vw;
@@ -42,9 +49,92 @@
             width: 70vw;
         }
 
+        #home-block-2-parallel {
+            display: grid;
+            grid-template-columns: 3fr 2.5vw 2fr;
+            justify-content: center;
+            width: 70vw;
+        }
+
         .home-block-img {
             z-index: 10;
         }
+
+        #find-resources {
+            
+            background-color: rgb(62, 219, 219);
+            color: rgb(35, 24, 53);
+            
+        }
+
+        #see-inspirations {
+            background-color: rgb(129, 105, 173);
+            color: white;
+        }
+
+        .homepage-button {
+            font-family: Manrope, Arial, Helvetica, sans-serif;
+            font-size: 1.7vh;
+            padding: 15px 20px;
+            margin-left: 20px;
+            transition: width .5s;
+            border: none;
+            border-radius: 100vh;
+            transition: padding .2s;
+            text-decoration: none;
+        }
+
+        
+
+        .homepage-button:hover {
+            cursor: pointer;
+            padding: 18px 22px;
+        }
+
+        .home-block-img {
+            height: 50vh; width: 100%; background-size: cover; border-radius: 2vh; background-position: center;
+        }
+
+        .carousel {
+            width: 100%;
+            border: none;
+            display: flex;
+            overflow-x: auto;
+        }
+
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+
+        .carousel-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: spin-reverse 40s infinite linear;
+            gap: 1em;
+            padding-right: 1em;
+        }
+
+        .gallery-img {
+            flex: 0 0 25em;
+            height: 15em;
+            padding: 1em;
+            border-radius: 1.5vh;
+            align-content: center;
+            width: auto;
+        }
+
+        @keyframes spin {
+            from {translate: 0;}
+            to {translate: -100%}
+        }
+
+        @keyframes spin-reverse {
+            from {translate: -100%;}
+            to {translate: 0;}
+        }
+
+
     </style>
     <header>
             <div id = "search-div">
@@ -81,8 +171,10 @@
                     Okla-<u>Home</u>.
                 </h1>
             </div>
+
+            
             <div id = "scroll-button" class = "page-link-div shadow-bg-reverse">
-                <a>Scroll &darr;</a>
+                <a href = "#home-block-1">Scroll &darr;</a>
             </div>
         </div>
 
@@ -93,16 +185,72 @@
                 <p class = "text-shadowed">
                     At Okla-Home, we believe that all Oklahoman constituents deserve accessible, navigable resources. Whether that be housing, legal assistance, financial assistance, we want to help you live your best Oklahoman life.
                 </p>
+                
 
+                    <a href = "pages/directory.html">
+                        <button class = "homepage-button" id = "find-resources">
+                            &ensp;Find Resources &rarr;
+                    </button>
+                    </a>
+            
+                </div>
+                <div></div>
+
+                <div id = "who-we-are-img" class = "shadowed home-block-img" style = "background-image: url(/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg);"></div>
+            </div>
+            
+        </div>
+
+        <div id = "home-block-2" class = "home-block">
+            <div id = "home-block-2-parallel">
+                <div id = "who-we-are-img" class = " home-block-img" style = "background-image: url(/images/hillary-ungson-TdpSX7XAcKo-unsplash.jpg); box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;;"></div>
+                
+                <div></div>
+                
+                <div id = "our-story">
+                <h3 class = "" style = "color: rgb(35, 24, 53);">Our Story</h3>
+                <p class = "" style = "color: rgb(35, 24, 53);">
+                    As Oklahomans, we're proud to have grown up in a caring, collaborative community. As we learned more about the resources around us, we felt compelled to share our discoveries with others.
+                </p>
+                
+
+                    <a href = "pages/highlights.html">
+                        <button class = "homepage-button" id = "see-inspirations">
+                            &ensp;See Our Inspirations &rarr;
+                    </button>
+                    </a>
             
                 </div>
 
-
-                <div></div>
-
-                <div id = "who-we-are-img" class = "shadowed home-block-img" style = "background-image: url(/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg); height: 50vh; width: 100%; background-size: cover; border-radius: 2vh;"></div>
+                
             </div>
             
+        </div>
+
+        <div id = "home-block-3" class = "home-block" style = "padding-top: 2vh;">
+            <h3 class = "text-shadowed">Gallery</h3>
+            <div class = "carousel">
+                <div class = "carousel-group">
+                    <div class = "gallery-img" style = "background-image: url(/images/hillary-ungson-TdpSX7XAcKo-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/download.webp);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/AdobeStock_76071575.jpeg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/Oklahoma_City\,_OK_USA_-_Ronald_J._Norick_Downtown_Library_-_panoramio.jpg);"></div>
+                </div>
+                <div class = "carousel-group">
+                    <div class = "gallery-img" style = "background-image: url(/images/hillary-ungson-TdpSX7XAcKo-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/download.webp);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/AdobeStock_76071575.jpeg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg);"></div>
+                    <div class = "gallery-img" style = "background-image: url(/images/Oklahoma_City\,_OK_USA_-_Ronald_J._Norick_Downtown_Library_-_panoramio.jpg);"></div>
+                </div>
+            </div>
+
+
+            </div>
+
         </div>
 
         
