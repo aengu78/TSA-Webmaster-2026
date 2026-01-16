@@ -41,6 +41,11 @@
     border: none;
 }
 
+#content-refs p, #image-refs p {
+    text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
+    overflow-wrap: break-word;
+}
+
 
 
 
