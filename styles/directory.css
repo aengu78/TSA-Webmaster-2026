@@ -29,7 +29,7 @@
 }
 
 #directory-search-bar::placeholder {
-            color: black;
+            color: rgba(0, 0, 0, 0.425);
         }
 /*ENZO MADE stuff */
 .org-cards{

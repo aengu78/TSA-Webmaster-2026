@@ -21,6 +21,30 @@
             transform: translateX(-50%);
             height: 10vh;
         }
+
+        #home-block-1 {
+            background-color: rgb(23, 19, 43);
+            
+        }
+
+        .home-block {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 7vh 0;
+        }
+
+        #home-block-1-parallel {
+            display: grid;
+            grid-template-columns: 2fr 2vw 3fr;
+            justify-content: center;
+            width: 70vw;
+        }
+
+        .home-block-img {
+            z-index: 10;
+        }
     </style>
     <header>
             <div id = "search-div">
@@ -62,7 +86,22 @@
             </div>
         </div>
 
-        <div id = "home-block-1">
+        <div id = "home-block-1" class = "home-block">
+            <div id = "home-block-1-parallel">
+                <div id = "who-we-are">
+                <h3 class = "text-shadowed">Who we are</h3>
+                <p class = "text-shadowed">
+                    At Okla-Home, we believe that all Oklahoman constituents deserve accessible, navigable resources. Whether that be housing, legal assistance, financial assistance, we want to help you live your best Oklahoman life.
+                </p>
+
+            
+                </div>
+
+
+                <div></div>
+
+                <div id = "who-we-are-img" class = "shadowed home-block-img" style = "background-image: url(/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg); height: 50vh; width: 100%; background-size: cover; border-radius: 2vh;"></div>
+            </div>
             
         </div>
 
