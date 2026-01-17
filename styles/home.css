@@ -49,3 +49,6 @@ h1,  h2 {
 #site-name {
     font-size: 10vw;
 }
+.hide {
+  display: none !important;
+}
