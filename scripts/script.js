@@ -9,6 +9,6 @@ acceptSub.addEventListener("click",(e)=>{
     for(let i=0;i< clearItems.length;i++ ){
         clearItems[i].classList.toggle("hide", true)
     }
-    changeItems[0].textContent = "thank"
-    changeItems[1].textContent ="yea"
+    changeItems[0].textContent = "We will review your suggestion shortly."
+    changeItems[1].textContent ="Thank You!"
 })
