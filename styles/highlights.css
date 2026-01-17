@@ -62,3 +62,33 @@
 .highlight-spacer {
     flex: .1;
 }
+.highlights-on-right{
+    position: relative; /* Needed for the 'left' property to work relative to its normal position */
+    animation-name: slideFromLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; /* Stays at the end point of the animation */
+}
+
+@keyframes slideFromLeft {
+    0% {
+        left: -100%; /* Start off-screen */
+    }
+    100% {
+        left: 0; /* End at the final position */
+    }
+}
+.highlights-on-left{
+    position: relative; /* Needed for the 'left' property to work relative to its normal position */
+    animation-name: slideFromRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; /* Stays at the end point of the animation */
+}
+
+@keyframes slideFromRight {
+    0% {
+        right: -100%; /* Start off-screen */
+    }
+    100% {
+        right: 0; /* End at the final position */
+    }
+}
