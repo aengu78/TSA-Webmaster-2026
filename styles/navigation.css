@@ -37,7 +37,7 @@
         .page-link-div a {
             inherits: false;
             color: white; 
-            font-size: 2em;
+            font-size: 1rem;
             text-decoration: none;
             font-family: Manrope, Roboto, Arial;
             text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
@@ -91,7 +91,7 @@
 
         #search-bar {
             opacity: 1;
-            font-size: 2em;
+            font-size: 1rem;
             text-decoration: none;
             font-family: Manrope, Roboto, Arial;
             text-shadow: rgba(8, 4, 29, 0.863) 1px 1px 4px;
