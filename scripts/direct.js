@@ -15,7 +15,7 @@ searchInput.addEventListener("input", e => {
 let users = []
 const userCardTemplate = document.querySelector("[data-user-template]")
 const userCardContainer = document.querySelector("[data-user-cards-container]")
-fetch("directory-info.json")
+fetch("../scripts/DirectoryInfo.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
