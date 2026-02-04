@@ -1,24 +1,33 @@
 //all the setOrg vars are for the org catagories and hold the values in a array like obj
 const searchInput = document.querySelector("[data-search]")
-const setOrg = document.querySelectorAll("[org-card]")
+const setOrg = document.querySelectorAll("[data-user-cards-container]")
 //ex org1 set to last index 
 //waits for someone to type into the thing and gets input
-searchInput.addEventListener("input",(e)=>{
-    const value = e.target.value.toLowerCase()
-    console.log(value)
-    for(let i=0;i< setOrg.length;i++ ){
-        //console.log(i)
-        //long if statemtn that gets what the user typed and checks which orgs have it in any catagoy 
-        const isVis = setOrg[i].textContent.toLowerCase().includes(value) 
-        console.log(isVis)
-        if(isVis){
-        setOrg[i].classList.toggle("hide", !isVis)
-        }
-        else{
-        setOrg[i].classList.toggle("hide", !isVis)
-        }}
+searchInput.addEventListener("input", e => {
+  const value = e.target.value.toLowerCase()
+  users.forEach(user => {
+    const isVisible =
+      user.name.toLowerCase().includes(value) ||
+      user.email.toLowerCase().includes(value)
+    user.element.classList.toggle("hide", !isVisible)
+  })
 })
-
+let users = []
+const userCardTemplate = document.querySelector("[data-user-template]")
+const userCardContainer = document.querySelector("[data-user-cards-container]")
+fetch("directory-info.json")
+  .then(res => res.json())
+  .then(data => {
+    users = data.map(user => {
+      const card = userCardTemplate.content.cloneNode(true).children[0]
+      const header = card.querySelector("[data-header]")
+      const body = card.querySelector("[data-body]")
+      header.textContent = user.name
+      body.textContent = user.desc
+      userCardContainer.append(card)
+      return { name: user.name, email: user.desc, element: card }
+    })
+  })
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry)=> {
         if(entry.isIntersecting) {
