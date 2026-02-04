@@ -18,3 +18,18 @@ searchInput.addEventListener("input",(e)=>{
         setOrg[i].classList.toggle("hide", !isVis)
         }}
 })
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=> {
+        if(entry.isIntersecting) {
+            console.log(entry.target)
+            entry.target.classList.add('show')
+        }else {
+            entry.target.classList.remove('show')
+        }
+    })
+
+}, {})
+
+const slideImages = document.querySelectorAll('#cards-made');
+slideImages.forEach(el => observer.observe(el));

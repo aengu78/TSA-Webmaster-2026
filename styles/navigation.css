@@ -113,3 +113,17 @@
             align-items: center;
             justify-content: center;
         }
+
+        #footer {
+            position: relative; 
+            left: 0; 
+            right: 0; 
+            bottom: 0; 
+            height: 37vh; 
+            background-color: rgb(8, 4, 29); 
+            z-index: 10; 
+            width: 100vw; 
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center;
+        }

@@ -43,6 +43,20 @@
         scrollbar-width: none;
         -ms-overflow-style: none;
         overflow-wrap: break-word;
+        opacity: 0;
+        transform: translateY(2em);
+        transition: all 1s ease-in-out;
+}
+
+@media(prefers-reduced-motion) {
+    #cards-made {
+        transition: none;
+    }
+}
+
+#cards-made.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #cards-made::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
@@ -123,7 +137,7 @@
             <div id = "directory-search-div">
                 <!-- got rid of form bc it wasnt needed and causing issues
                 <form action="/submit-page" method="POST" type>-->
-                    <h3 style = "margin-bottom: 0;"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
+                    <h3 style = "margin-bottom: 0;" class = "text-shadowed"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
                     <!-- please make the heading go above the search bar or get rid of it, i just thought it looked kinda empty-->
                     <input type="search" id="directory-search-bar" placeholder = "Try searching for 'food' or 'housing'!" data-search>
                 <!--</form>-->
@@ -136,7 +150,7 @@
             </div>
             
             all the cards i made for the orgs, still need to add some of the orgs and catagories -->
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-211">
                     <h3 class="header org-names">211</h3>
                     <div class = "service-details">
@@ -149,7 +163,7 @@
             </div>
 
             
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-LegAid">
                     <h3 class="header org-names">Legal Aid Services of Oklahoma</h3>
                     <div class = "service-details">
@@ -161,7 +175,7 @@
                 </div>
             </div>
 
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-Pcs">
                     <h3 class="header org-names">PCs for People</h3>
                     <div class = "service-details">
@@ -173,7 +187,7 @@
                 </div>
             </div>
             
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-Food">
                     <h3 class="header org-names">Regional Food Bank of Oklahoma</h3>
                     <div class = "service-details">
@@ -185,7 +199,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-66">
                     <h3 class="header org-names">Project 66</h3>
                     <div class = "service-details">
@@ -197,7 +211,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-Food-east">
                     <h3 class="header org-names">Food Bank of Eastern Oklahoma</h3>
                     <div class = "service-details">
@@ -209,7 +223,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-metro">
                     <h3 class="header org-names">Metropolitan Library System</h3>
                     <div class = "service-details">
@@ -222,7 +236,7 @@
             </div>
 
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-east-lib">
                     <h3 class="header org-names">Eastern Oklahoma Library System</h3>
                     <div class = "service-details">
@@ -234,7 +248,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-pioneer">
                     <h3 class="header org-names">Pioneer Library System</h3>
                     <div class = "service-details">
@@ -246,7 +260,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-southeast-lib">
                     <h3 class="header org-names">Southeast Oklahoma Library System</h3>
                     <div class = "service-details">
@@ -258,7 +272,7 @@
                 </div>
             </div>
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-south-lib">
                     <h3 class="header org-names">Southern Oklahoma Library System</h3>
                     <div class = "service-details">
@@ -269,7 +283,7 @@
                     </div>
                 </div>
             </div>            
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-citycare">
                     <h3 class="header org-names">City Care - Pershing Center</h3>
                     <div class = "service-details">
@@ -281,7 +295,7 @@
                 </div>
             </div>
 
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-Food">
                     <h3 class="header org-names">Compassionate Hands</h3>
                     <div class = "service-details">
@@ -293,7 +307,7 @@
                 </div>
             </div>
 
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-cath">
                     <h3 class="header org-names">Catholic Charities</h3>
                     <div class = "service-details">
@@ -305,7 +319,7 @@
                 </div>
             </div>  
 
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-fam">
                     <h3 class="header org-names">Family Function</h3>
                     <div class = "service-details">
@@ -318,7 +332,7 @@
             </div>  
 
                         
-            <div id="cards-made"org-card>
+            <div id="cards-made">
                 <div class="org-amb">
                     <h3 class="header org-names">Ambassador House</h3>
                     <div class = "service-details">
@@ -332,10 +346,18 @@
         
         </div>
         <div class = "space-filler" style = "transform: translateY(8.955vh);"></div>
-        
-
-        
     </main>
-
+    <div id = "footer">
+        <div style = "width: 70vw; display: flex; flex-direction: column;">
+            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left;">
+                <h3 style = "margin-bottom: .1em;"> &emsp;Our Vision</h3>
+                <p>At Okla-Home, we hope to both serve and reflect the Oklahoman community in information, energy, and spirit.</p>
+            </div>
+            <div style = "width: 90vw; justify-self: center; align-self: center; height: 2px; background-color: rgb(89, 73, 119);"></div>
+            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left; margin-top: 1em">
+                <p>&copy; 2026 Okla-Home. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
