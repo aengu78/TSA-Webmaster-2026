@@ -18,7 +18,7 @@
    <style>
 
   /* made the cards look pretty*/
-    #cards-wrapper {
+    .cards-wrapper {
         display: grid;
         gap: .25rem;
         grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
@@ -28,7 +28,7 @@
         max-width: 80vw;
     
 }
-#cards-made{
+.cards-made{
     background-color: white;
     border-radius: 2vh;
     height: 100%;
@@ -43,23 +43,23 @@
         scrollbar-width: none;
         -ms-overflow-style: none;
         overflow-wrap: break-word;
-        opacity: 0;
+        opacity: 1;
         transform: translateY(2em);
         transition: all 1s ease-in-out;
 }
 
 @media(prefers-reduced-motion) {
-    #cards-made {
+    .cards-made {
         transition: none;
     }
 }
 
-#cards-made.show {
+.cards-made.show {
     opacity: 1;
     transform: translateY(0);
 }
 
-#cards-made::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
+.cards-made::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
 
 
 
@@ -101,7 +101,7 @@
     <header>
             <div id = "search-div">
                 <div class = "page-link-div" style = "min-width: 150%;">
-                    <a href = "../index.html" style = "white-space: nowrap;">Okla-Home</a>
+                    <a href = "../index.html" style = "padding-right: 20%; padding-left: 20%; white-space: nowrap;">Okla-Home</a>
                 </div>
             </div>
 
@@ -138,9 +138,9 @@
                     <h3 style = "margin-bottom: 0;" class = "text-shadowed"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
                     <input type="search" id="directory-search-bar" placeholder = "Try searching for 'food' or 'housing'!" data-search>
             </div>
-            <div class="cards-made" data-user-cards-container></div>
+            <div class="cards-wrapper" data-user-cards-container></div>
             <template data-user-template>
-                 <div class="cards">
+                 <div class="cards-made">
                      <div class="org-names" data-header></div>
                      <div class="body" >
                         <div class="service-details"data-body></div>
