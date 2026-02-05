@@ -23,7 +23,16 @@ fetch("../scripts/DirectoryInfo.json")
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
       header.textContent = user.name
-      body.textContent = [ "Description: "+user.desc, "Catagory: "+user.category,"Area: "+ user.area,"Address: "+ user.address,"Site: "+ user.site,"Number: "+ user.number ].join("\n"); 
+      body.append("Description: "+user.desc, "\n","Category: "+ user.category, "\n", "Area: "+user.area, "\n", "Address: "+user.address, "\n"+"Site: ")
+
+      // 👇 create clickable site link
+      const siteLink = document.createElement("a")
+      siteLink.href = user.site.startsWith("http") ? user.site : "https://" + user.site
+      siteLink.textContent = user.site
+      siteLink.target = "_blank"      // opens in new tab
+      siteLink.rel = "noopener"       // security best practice
+
+      body.append(siteLink, "\n","Number: "+ user.number)
       body.style.whiteSpace = "pre-wrap";
       userCardContainer.append(card)
       return { name: user.name, email: user.desc, element: card }
