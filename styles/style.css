@@ -90,7 +90,7 @@ h3 {
     flex-direction: column;
     height: 100%;
     align-items: center;
-    transform: translateY(-9.01vh);
+    margin-top: -9.01vh;
 }
 
 .space-filler {

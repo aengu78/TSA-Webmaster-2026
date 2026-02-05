@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body style = "background-image: url(../images/download.webp); background-size: cover; background-position-y: -25vh; background-attachment: fixed;">
+<body style = "background-image: url(../images/download.webp); background-size: cover;  background-attachment: fixed; ">
     <style>
         #image-refs p:hover {
             text-decoration: underline;
@@ -19,6 +19,12 @@
 
         #content-refs p:hover {
             text-decoration: underline;
+        }
+
+        @media screen and (orientation: landscape) {
+            body {
+                background-position-y: -25vh;
+            }
         }
     </style>
     <header>
@@ -42,6 +48,17 @@
             
 
         </header>
+
+        <div id = "nav-opener" class = "mobile" style = "" onclick = "show()">
+            <img src = "../images/hamburger-menu-svgrepo-com.svg" style = "height: 4vh; display: inline-block">
+        </div>
+
+        <div id = "mobile-nav" class = "mobile" style = "" onclick = "show()"> 
+            <div class = "page-link-div-mobile other-page" ><a href = "../index.html" class = "text-shadowed ">Okla-Home </a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "directory.html" class = "text-shadowed ">Directory </a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "highlights.html" class = "text-shadowed ">Highlights </a></div>
+            <div class = "page-link-div-mobile current-page" ><a href = "references.html" class = "text-shadowed ">References &starf;</a></div>
+        </div>
     <main>
 
         
@@ -156,16 +173,16 @@
         
     </main>
     <div id = "footer">
-        <div style = "width: 70vw; display: flex; flex-direction: column;">
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left;">
+        <div id ="footer-content">
+            <div id = "footer-text">
                 <h3 style = "margin-bottom: .1em;"> &emsp;Our Vision</h3>
                 <p>At Okla-Home, we hope to both serve and reflect the Oklahoman community in information, energy, and spirit.</p>
             </div>
             <div style = "width: 90vw; justify-self: center; align-self: center; height: 2px; background-color: rgb(89, 73, 119);"></div>
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left; margin-top: 1em">
+            <div id = "footer-content">
                 <p>&copy; 2026 Okla-Home. All rights reserved.</p>
             </div>
         </div>
-    </div>
+    <script src = "../scripts/mobile_nav.js"></script>
 </body>
 </html>

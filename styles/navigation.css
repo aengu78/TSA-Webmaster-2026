@@ -156,7 +156,6 @@ nav {
     height: 100vh; 
     z-index: 10; 
     padding-top: 10vh; 
-    display: flex; 
     flex-direction: column;
     transition: all .5s ease-in-out;
     transform: translateX(-100vw);
@@ -244,4 +243,10 @@ nav {
         width: 100%; 
     }
 
+}
+
+@media screen and (orientation: landscape) {
+    #nav-opener {
+        display: none;
+    }
 }

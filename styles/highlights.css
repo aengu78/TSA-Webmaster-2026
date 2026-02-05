@@ -1,6 +1,11 @@
-#highlights-wrapper, #highlights-wrapper-mobile {
+#highlights-wrapper{
     width: 80vw;
     display: flex;
+    flex-direction: column;
+}
+
+#highlights-wrapper-mobile {
+    width: 80vw;
     flex-direction: column;
 }
 
@@ -120,4 +125,8 @@
     .highlight-img {
         flex: 1;
     }
+
+    #highlights-wrapper-mobile {
+    display: flex;
+}
 }
