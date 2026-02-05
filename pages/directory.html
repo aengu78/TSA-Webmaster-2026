@@ -40,12 +40,12 @@
     box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
     max-height: 30vh;
     overflow-y: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        overflow-wrap: break-word;
-        opacity: 0;
-        transform: translateY(2em);
-        transition: all 1s ease-in-out;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-wrap: break-word;
+    opacity: 0;
+    transform: translateY(2em);
+    transition: all 1s ease-in-out;
 }
 
 @media(prefers-reduced-motion) {
@@ -120,6 +120,17 @@
 
         </header>
 
+    <div id = "nav-opener" class = "mobile" style = "" onclick = "show()">
+            <img src = "../images/hamburger-menu-svgrepo-com.svg" style = "height: 4vh; display: inline-block">
+        </div>
+
+        <div id = "mobile-nav" class = "mobile" style = "" onclick = "show()"> 
+            <div class = "page-link-div-mobile other-page" ><a href = "../index.html" class = "text-shadowed ">Okla-Home </a></div>
+            <div class = "page-link-div-mobile current-page" ><a href = "directory.html" class = "text-shadowed ">Directory &starf;</a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "highlights.html" class = "text-shadowed ">Highlights </a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "references.html" class = "text-shadowed ">References</a></div>
+        </div>
+
     <main>
         
 
@@ -153,17 +164,18 @@
 
         <div class = "space-filler" style = "transform: translateY(8.955vh);"></div>
     </main>
-    <div id = "footer">
-        <div style = "width: 70vw; display: flex; flex-direction: column;">
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left;">
+    <div id = "footer" style = "margin-top: -9vh;">
+        <div id = "footer-content">
+            <div id = "footer-vision">
                 <h3 style = "margin-bottom: .1em;"> &emsp;Our Vision</h3>
                 <p>At Okla-Home, we hope to both serve and reflect the Oklahoman community in information, energy, and spirit.</p>
             </div>
             <div style = "width: 90vw; justify-self: center; align-self: center; height: 2px; background-color: rgb(89, 73, 119);"></div>
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left; margin-top: 1em">
+            <div id = "footer-content">
                 <p>&copy; 2026 Okla-Home. All rights reserved.</p>
             </div>
         </div>
     </div>
+    <script src = "../scripts/mobile_nav.js"></script>
 </body>
 </html>

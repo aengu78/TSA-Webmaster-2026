@@ -12,19 +12,46 @@
 
 #references-wrapper {
     display: flex;
-    width: 70%;
+    
     flex-direction: column;
     background-color: rgba(33, 15, 63, 0.521);
     transform: translateY(-9.01vh);
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: -9.00vh;
-
 }
 
 #parallel-divs {
     display: grid;
-    grid-template-columns: 1fr 2vw 1fr;
+}
+
+@media screen and (orientation: landscape) {
+    #parallel-divs {
+        grid-template-columns: 1fr 2vw 1fr;
+    }
+    .embedded {
+        width: 35vw;
+        height: 70vh;
+    }
+    #references-wrapper {
+        width: 70vw;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #parallel-divs {
+        grid-template-rows: 1fr 2vh 1fr;
+    }
+
+    .embedded {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #references-wrapper {
+        width: 80vw;
+        padding-left: 10%;
+    }
 }
 
 #parallel-divs div {
@@ -34,8 +61,7 @@
 }
 
 .embedded {
-    width: 35vw;
-    height: 70vh;
+    
     border-radius: 2vh;
     box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
     border: none;

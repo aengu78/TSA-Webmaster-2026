@@ -175,7 +175,6 @@ nav {
 #nav-opener {
     height: 10vh; 
     position: fixed; top: 0; 
-    display: flex; 
     justify-content: start; 
     align-items: center; 
     padding: 0px 2em; 
@@ -242,6 +241,10 @@ nav {
 
     #footer-vision {
         width: 100%; 
+    }
+
+    #nav-opener {
+        display: flex; 
     }
 
 }

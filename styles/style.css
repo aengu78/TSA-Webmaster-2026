@@ -135,4 +135,8 @@ div {
     .desktop {
         display: none;
     }
+
+    .bg {
+        margin-bottom: -5em;
+    }
 }
