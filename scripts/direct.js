@@ -23,7 +23,8 @@ fetch("../scripts/DirectoryInfo.json")
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
       header.textContent = user.name
-      body.textContent = user.desc
+      body.textContent = [ "Description: "+user.desc, "Catagory: "+user.category,"Area: "+ user.area,"Address: "+ user.address,"Site: "+ user.site,"Number: "+ user.number ].join("\n"); 
+      body.style.whiteSpace = "pre-wrap";
       userCardContainer.append(card)
       return { name: user.name, email: user.desc, element: card }
     })
