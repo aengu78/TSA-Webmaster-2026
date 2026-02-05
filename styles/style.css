@@ -123,3 +123,16 @@ div {
     background-position: center; 
     background-size: cover;
 }
+
+
+@media screen and (orientation: landscape) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .desktop {
+        display: none;
+    }
+}

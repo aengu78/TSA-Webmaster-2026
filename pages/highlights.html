@@ -34,11 +34,15 @@
             opacity: 1;
             transform: translateX(0);
         }
+        
+        #nav-opener {
+
+        }
     </style>
     <header>
             <div id = "search-div">
                 <div class = "page-link-div" style = "min-width: 150%;">
-                    <a href = "../index.html" style = "padding-right: 20%; padding-left: 20%; white-space: nowrap;">Okla-Home</a>
+                    <a href = "../index.html" style = "white-space: nowrap;">Okla-Home</a>
                 </div>
             </div>
             <nav>
@@ -54,8 +58,23 @@
             </nav>
             
         </header>
+
+        <div id = "nav-opener" class = "mobile" style = "" onclick = "show()">
+            <img src = "../images/hamburger-menu-svgrepo-com.svg" style = "height: 4vh; display: inline-block">
+        </div>
+
+        <div id = "mobile-nav" class = "mobile" style = "" onclick = "show()"> 
+            <div class = "page-link-div-mobile other-page" ><a href = "../index.html" class = "text-shadowed ">Okla-Home </a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "directory.html" class = "text-shadowed ">Directory </a></div>
+            <div class = "page-link-div-mobile current-page" ><a href = "highlights.html" class = "text-shadowed ">Highlights &starf;</a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "references.html" class = "text-shadowed ">References</a></div>
+        </div>
+
+        
     <main>
         <!--<img id = "hero-img" src = "../images/gerson-repreza-OSNZjXCF5VE-unsplash.jpg">-->
+        
+
         
 
         <div class = "bg">
@@ -140,21 +159,94 @@
                         </div>                    
                 </div>
             </div>
+
+            <div id = "highlights-wrapper-mobile" class = ".mobile">
+
+                <div class = "highlights-text-left">
+                    <div class = "highlight-desc from-left">
+                        <h3>
+                            The Regional Food Bank of Oklahoma
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p>
+                                "The Regional Food Bank is leading the fight against hunger in Oklahoma and envisions a state where no one goes hungry. Founded in 1980, the Regional Food Bank distributes food through a network of more than 1,300 community-based partner agencies and schools in 53 counties in central and western Oklahoma. The Regional Food Bank not only distributes food, it is a leader in educating the public on hunger, advocating for those living with hunger and providing access to additional resources."
+                            </p>
+                            <p>&emsp;&emsp;- The Regional Food Bank of Oklahoma</p>
+                        </div>
+                    </div>
+                    <div class = "highlight-spacer"></div>
+                    <div class = "highlight-img from-right" style = "background-image: url(../images/DJI_0496-scaled-e1731536676416.jpg);"></div>
+                </div>  
+
+                <div class = "highlights-text-right">
+
+                    <div class = "highlight-desc from-left">
+                        <h3>
+                            The Metropolitan Library System
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p>The Metropolitan Library System empowers and connects diverse communities by providing equitable access to knowledge, technology, and spaces to learn, grow and connect. They prioritize providing exceptional connections by offering materials that reflect community demand and the diversity of the world - in good condition, easy to access, and available in a variety of traditional and emerging formats with minimal wait times. They also endeavor to preserve and promote local history by collecting, digitizing, and promoting primary source materials. They aim to engage the public through educational programs, exhibitions, and community storytelling. </p>
+                            <p>&emsp;&emsp;- The Metropolitan Library System</p>
+                        </div>
+                    </div>
+
+                    <div class = "highlight-spacer"></div>
+
+                    <div class = "highlight-img from-right" style = "background-image: url(../images/Oklahoma_City\,_OK_USA_-_Ronald_J._Norick_Downtown_Library_-_panoramio.jpg); background-position: center;"></div>
+                </div>
+
+                <div class = "highlights-text-left">
+                    <div class = "highlight-desc from-left">
+                        <h3>
+                            City Rescue Mission
+                        </h3>
+                        <div class = "highlight-text-div">
+                            <p>For more than 65 years, City Rescue Mission has helped those experiencing homelessness in the Oklahoma City metro. A hot meal and safe place to stay are just the beginning. They act as the first stop on the path back to hope, and their mission is to lead their community by serving people experiencing and at risk of homelessness with help, hope, and healing, in the spirit of excellence. </p>
+                            <p>&emsp;&emsp;- City Rescue Mission</p>
+                        </div>
+                    </div>
+
+                    <div class = "highlight-spacer"></div>
+
+                    <div class = "highlight-img from-right" style = "background-image: url(../images/aboutCRM.jpg); background-position: center;"></div>
+                </div>
+
+                <div class = "highlights-text-right">
+
+                        <div class = "highlight-desc from-left">
+                            <h3>
+                                Christian Service Center
+                            </h3>
+                            <div class = "highlight-text-div">
+                                <p>
+                                    The Christian Service Center provides various programs to serve and connect individuals throughout the OKC area, including, but not limited to: their baby room, which provides diapers, formula, clothing, and other necessary items for expecting mothers; their fresh market, which serves 30 families fruits, vegetables, and bakery items; and their Trinity Legal Clinic, which can assist with cases ranging from wrongful denial of jobs, immigration issues, minor criminal issues, and unfair housing practices.
+                                </p>
+                                <p>&emsp;&emsp;- Christian Service Center</p>
+                            </div>  
+                        </div>  
+
+                        <div class = "highlight-spacer"></div>
+                        <div class = "highlight-img from-right" style = "background-image: url(../images/give-statements-header-1536x617.jpg.webp); background-position: center;"></div>
+                                          
+                </div>
+            </div>
+
             <div class = 'space-filler' style = "transform: translateY(9vh)"></div>  
         </div>
     </main>
     <div id = "footer" style = "margin-top: -9vh;">
-        <div style = "width: 70vw; display: flex; flex-direction: column;">
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left;">
+        <div id = "footer-content">
+            <div id = "footer-vision">
                 <h3 style = "margin-bottom: .1em;"> &emsp;Our Vision</h3>
                 <p>At Okla-Home, we hope to both serve and reflect the Oklahoman community in information, energy, and spirit.</p>
             </div>
             <div style = "width: 90vw; justify-self: center; align-self: center; height: 2px; background-color: rgb(89, 73, 119);"></div>
-            <div style = "width: 20vw; display: flex; flex-direction: column; align-items: left; margin-top: 1em">
+            <div id = "footer-content">
                 <p>&copy; 2026 Okla-Home. All rights reserved.</p>
             </div>
         </div>
     </div>
     <script src = "../scripts/scroll.js"></script>
+    <script src = "../scripts/mobile_nav.js"></script>
 </body>
 </html>
