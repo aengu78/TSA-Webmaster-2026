@@ -722,7 +722,7 @@
     },
     {
       "name":"Myriad Botanical Gardens",
-      "category":"Park",
+      "category":"Parks",
       "number":"405-445-7080",
       "site":"https://myriadgardens.org/",
       "area":"Oklahoma City",
@@ -731,7 +731,7 @@
     },
     {
       "name":"Robbers Cave State Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"918-465-2562",
       "site":"https://www.travelok.com/state-parks/robbers-cave-state-park",
       "area":"Latimer County",
@@ -740,7 +740,7 @@
     },
     {
       "name":"Beavers Bend State Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"580-494-6300",
       "site":"https://www.travelok.com/state-parks/beavers-bend-state-park/media-gallery#listing-menu-tabs",
       "area":"McCurtain County",
@@ -749,7 +749,7 @@
     },
     {
       "name":"Scissortail Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"(405) 445-6277",
       "site":"https://www.scissortailpark.org/",
       "area":"Oklahoma City",
@@ -758,7 +758,7 @@
     },
     {
       "name":"Wheeler Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"405-609-2994",
       "site":"https://www.wheelerdistrict.com/",
       "area":"Wheeler district",
@@ -767,7 +767,7 @@
     },
     {
       "name":"Wiley Post Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"405-297-3882. ",
       "site":"https://www.okc.gov/Community-Recreation/Rentals-Reservations/Event-Centers/Wiley-Post-Event-Center",
       "area":"Oklahoma City",
@@ -776,7 +776,7 @@
     },
     {
       "name":"Little Sahara State Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"580-824-1471",
       "site":"https://www.travelok.com/state-parks/little-sahara-state-park?adara_campaignid=194193234&adarapixelid=76743&gad_source=1&gad_campaignid=194193234&gbraid=0AAAAAD1FHY5P8uAZ_Wh25P8WlkJp7wmfp&gclid=Cj0KCQiAnJHMBhDAARIsABr7b87GJpTjbc9pJ_xNUKiHt9ev2GnIxmFMCkus2o2cFIpqDg12bclQFfYaAmSsEALw_wcB",
       "area":"Woods County",
@@ -785,7 +785,7 @@
     },
     {
       "name":"Lake Murray State Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"580-223-4044",
       "site":"https://www.travelok.com/state-parks/lake-murray-state-park?adara_campaignid=194193234&adarapixelid=76743&gad_source=1&gad_campaignid=194193234&gbraid=0AAAAAD1FHY5P8uAZ_Wh25P8WlkJp7wmfp&gclid=Cj0KCQiAnJHMBhDAARIsABr7b86_gDVvZzaeCp7nzDpXVA82SNLd173UN3ACIV9H2EbUDJJOVZo31aYaAr2ZEALw_wcB",
       "area":"Ardmore",
@@ -794,7 +794,7 @@
     },
     {
       "name":"Mitch Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"405-216-7646",
       "site":"https://www.edmondok.gov/Facilities/Facility/Details/19",
       "area":"Edmond",
@@ -803,11 +803,299 @@
     },
     {
       "name":"Natural Falls State Park",
-      "category":"Park",
+      "category":"Parks",
       "number":"918-422-5802",
       "site":"https://www.travelok.com/state-parks/natural-falls-state-park",
       "area":" Dripping Springs",
       "address":"19225 E 578 Rd Colcord, OK 74338",
       "desc":"Located near the Oklahoma/Arkansas border in the scenic Ozark Highlands region of northeast Oklahoma, Natural Falls State Park features a stunning 77-foot waterfall cascading through rock formations and creating a hidden, serene atmosphere at the bottom of a narrow V-shaped valley. A railed observation platform allows hikers to overlook the falls and another observation deck with seating is located at the foot of the falls offering two vantage points to enjoy one of the most scenic wonders in the state."
+    },
+    {
+      "name":"Toby Keith's I Love This Bar & Grill",
+      "category":"Restaurants",
+      "number":"405-799-0300",
+      "site":"https://tobykeithsbar.com/locations/moore-2",
+      "area":"Moore",
+      "address":"1199 S I-35 Service Rd Moore, OK 73160",
+      "desc":"From the oversized artwork and the redneck loveseats, which are actually lowered pickup tailgates, to the expansive seating area, everything about this place is bigger and badder, just like it's namesake. Visit the Toby Keith's I Love This Bar & Grill in Moore, right in the middle of his hometown."
+    },
+    {
+      "name":"All About Cha",
+      "category":"Restaurants",
+      "number":"918-940-7171",
+      "site":"https://allaboutchayukon.square.site/",
+      "area":"Yukon",
+      "address":"12444 NW 10th St Yukon, OK 73099",
+      "desc":"All About Cha in Yukon offers a wide range of traditional tea and coffee drinks served by savvy baristas. Promoting tea culture in Yukon, All About Cha melds traditional tastes of Asia with a modernized style. "
+    },
+    {
+      "name":"Del Rancho (Moore)",
+      "category":"Restaurants",
+      "number":"405-332-5510",
+      "site":"https://delranchousa.com/",
+      "area":"Moore",
+      "address":"1409 N Moore Ave Moore, OK 73160",
+      "desc":"For a hearty lunch or dinner, look no further than Del Rancho. 'Home of the famous steak sandwich,' Del Rancho in Moore serves some of the best chicken fried steak sandwiches in Oklahoma."
+    },
+    {
+      "name":"Del Rancho (Tahlequah)",
+      "category":"Restaurants",
+      "number":"918-456-0757",
+      "site":"https://delranchousa.com/",
+      "area":"Moore",
+      "address":"4800 S Muskogee Ave Tahlequah, OK 74464",
+      "desc":"For a hearty lunch or dinner, look no further than Del Rancho. 'Home of the famous steak sandwich,' Del Rancho in Moore serves some of the best chicken fried steak sandwiches in Oklahoma."
+    },
+    {
+      "name":"Redrock Canyon Grill",
+      "category":"Restaurants",
+      "number":"405-701-5501",
+      "site":"https://www.redrockcanyongrill.com/locations/norman/",
+      "area":"Norman",
+      "address":"1820 Legacy Park Dr Norman, OK 73069",
+      "desc":"Redrock Canyon Grill Norman is a local favorite in the center of Legacy Park. Here, you can enjoy live music from our covered patio or take in the action from our “exhibition kitchen.” The aroma of our open-fire rotisserie makes your mouth water with anticipation! Come by, unwind and treat yourself to a Perfect Margarita and great food!"
+    },
+    {
+      "name":"Café Antigua",
+      "category":"Restaurants",
+      "number":"405-602-8984",
+      "site":"N/A",
+      "area":"Oklahoma City",
+      "address":"1903 N Classen Blvd Oklahoma City, OK 73106",
+      "desc":"Café Antigua is Oklahoma City's go-to spot for Guatemalan cuisine. Popular for brunch, this family-owned eatery serves flavorful breakfast and lunch options seven days a week. "
+    },
+    {
+      "name":"Baron of Beef",
+      "category":"Restaurants",
+      "number":"580-421-5076",
+      "site":"https://www.echocanyonmanor.com/baron-of-beef",
+      "area":"Sulphur",
+      "address":"Steakhouse at Echo Canyon Spa Resort Sulphur, OK 73086",
+      "desc":"When staying at the Echo Canyon Spa and Resort near Sulphur, be sure to set aside an evening for an epic meal at the spa’s exclusive restaurant, Baron of Beef."
+    },
+    {
+      "name":"Lucy's Two",
+      "category":"Restaurants",
+      "number":"918-423-1414",
+      "site":"http://lucystwo.com/",
+      "area":"McAlester",
+      "address":"200 E Carl Albert Pkwy McAlester, OK 74501",
+      "desc":"At Lucy's Two, don't forget to leave room for dessert so you can fully enjoy a generous serving of strawberry pie, ganache brownies, cobbler, carrot cake or bread pudding. You can even take home a bottle of homemade champagne salad dressing from this downtown cafe."
+    },
+    {
+      "name":"Krebs Korner",
+      "category":"",
+      "number":"918-426-0009",
+      "site":"Restaurants",
+      "area":"Krebs",
+      "address":"510 W Washington Ave Krebs, OK 74554",
+      "desc":"Next time you tour through Oklahoma's Little Italy, fuel up and head inside Krebs Korner for a delicious deli lunch. Here, gourmet cheeses from Lovera's merge with smoked brisket sandwiched between Tuscan bread. "
+    },
+    {
+      "name":"Tucker's Onion Burgers",
+      "category":"Restaurants",
+      "number":"405-561-7373",
+      "site":"https://www.tuckersonionburgers.com/",
+      "area":"Norman",
+      "address":"2166 NW 24th Ave Norman, OK 73069",
+      "desc":"Tucker’s Onion Burgers is Oklahoma's first premium onion burger restaurant. In a casual, vintage modern setting customers can enjoy delicious, authentic Oklahoma onion burgers made from only the freshest, all-natural ingredients."
+    },
+    {
+      "name":"Merritt's Bakery",
+      "category":"Restaurants",
+      "number":"918-747-2301",
+      "site":"",
+      "area":"",
+      "address":"3202 E 15th St Tulsa, OK 74112",
+      "desc":"Serving customers since 1979, Merritt's Bakery offers a wide selection of cakes, pies, pastries, donuts, cookies and lunch items. Stop in for delicious, two-layer dessert cakes and 9'' pies."
+    },
+    {
+      "name":"Frank & Lola's Neighborhood Restaurant & Bar",
+      "category":"Restaurants",
+      "number":"918-336-5652",
+      "site":"http://frankandlolas.com/",
+      "area":"Bartlesville",
+      "address":"200 SE 2nd St Bartlesville, OK 74003",
+      "desc":"Frank & Lola's may feature a relaxed, casual atmosphere, but that doesn't mean the food isn't superb. With an emphasis on high quality food and service, Frank & Lola's is a must-stop while traveling through Bartlesville."
+    },
+    {
+      "name":"Forward Foods",
+      "category":"Restaurants",
+      "number":"405-321-1007",
+      "site":"https://forwardfoods.com/",
+      "area":"Norman",
+      "address":"2001 W Main St Norman, OK 73069",
+      "desc":"Forward Foods in Norman is an eclectic mix of part store, part deli. Stop by for a wide variety of specialty cheeses with everything from appenzeller to zamoramo."
+    },
+    {
+      "name":"Pinkitzel Cupcakes and Candy",
+      "category":"Restaurants",
+      "number":"405-330-4500",
+      "site":"https://www.pinkitzel.com/",
+      "area":"Edmond",
+      "address":"14110 N Pennsylvania Ave Edmond, OK 73134",
+      "desc":"Pinkitzel Cupcakes & Candy, located in Edmond, is an unbelievably unique and extravagant cupcake cafe and candy boutique. Bring the kids or round up the girlfriends and browse through hundreds of selections of loose candy, taffy, lollipops and the finest in chocolate, from toffee to truffles."
+    },
+    {
+      "name":"Waterfront Grill",
+      "category":"Restaurants",
+      "number":"918-518-6300",
+      "site":"https://waterfrontgrilljenks.com/",
+      "area":"Jenks",
+      "address":"120 Aquarium Dr Jenks, OK 74037",
+      "desc":"Set along the edge of the Arkansas River in Jenks, Waterfront Grill offers a wide variety of menu options in an upscale environment. Perfect for special occasions, this award-winning restaurant offers a memorable dining experience, from the cocktails to the quality dishes."
+    },
+    {
+      "name":"Mutti's German Restaurant",
+      "category":"Restaurants",
+      "number":"580-353-3928",
+      "site":"N/A",
+      "area":"Lawton",
+      "address":"1410 SW Sheridan Lawton, OK 73505",
+      "desc":"From schnitzel prepared eight different ways to spaetzle, from homemade noodles to sauerkraut, Mutti's is a haven for German comfort food served in an inviting, family-friendly atmosphere. "
+    },
+    {
+      "name":"Elote Cafe",
+      "category":"Restaurants",
+      "number":"918-582-1403",
+      "site":"https://www.elotetulsa.com/",
+      "area":"Tulsa",
+      "address":"514 S Boston Ave Tulsa, OK 74103",
+      "desc":"Elote Cafe specializes in authentic Mexican food with a twist in the heart of Tulsa's Deco District. Utilizing local farms and vendors, this cafe serves organic, grain-fed meats from nearby Bixby and relies on fresh herbs and spices for outstanding flavor."
+    },
+    {
+      "name":"Tower Cafe & Okarche Bakery",
+      "category":"Restaurants",
+      "number":"405-263-7911",
+      "site":"N/A",
+      "area":"Okarche",
+      "address":"411 Main St Okarche, OK 73762",
+      "desc":"Located in Okarche just south of the intersection of Highways 3 and 81, the Tower Inn & Cafe has long been a welcome relief for road-weary travelers. However, you don't have to be on a road trip to appreciate the friendly service and delicious food that the facility provides."
+    },
+    {
+      "name":"Blue Moon Cafe",
+      "category":"Restaurants",
+      "number":"580-332-4477",
+      "site":"N/A",
+      "area":"Ada",
+      "address":"1104 N Hills Center Ada, OK 74820",
+      "desc":"Think you’ve tasted it all when it comes to diner food? Think again. This restaurant’s slogan is “Classic food at a classic café,” and the Blue Moon never misses the mark."
+    },
+    {
+      "name":"The Earth Cafe",
+      "category":"Restaurants",
+      "number":"405-573-5933",
+      "site":"N/A",
+      "area":"Norman",
+      "address":"309 S Flood Ave Norman, OK 73069",
+      "desc":"A fixture in Norman's college community for three decades, The Earth Cafe’s organic, vegetarian and vegan offerings are a favorite of University of Oklahoma students and alums alike."
+    },
+    {
+      "name":"Science Museum Oklahoma",
+      "category":"Museums",
+      "number":"405-602-6664",
+      "site":"https://www.sciencemuseumok.org/",
+      "area":"Oklahoma City",
+      "address":"2020 Remington Pl, Oklahoma City, OK 73111",
+      "desc":"Science Museum Oklahoma is a science museum located in Oklahoma City, Oklahoma. The museum features several notable attractions, including the new Love's Planetarium, the International Gymnastics Hall of Fame, and various specialized galleries."
+    },
+    {
+      "name":"National Cowboy & Western Heritage Museum",
+      "category":"Museums",
+      "number":"405-478-2250",
+      "site":"https://nationalcowboymuseum.org/",
+      "area":"Oklahoma City",
+      "address":"1700 NE 63rd St, Oklahoma City, OK 73111",
+      "desc":"The National Cowboy & Western Heritage Museum is a museum in Oklahoma City, Oklahoma, United States, with more than 28,000 Western and Native American art works and artifacts. The facility also has the world's most extensive collection of American rodeo photographs, barbed wire, saddlery, and early rodeo trophies"
+    },
+    {
+      "name":"Oklahoma City Museum of Art",
+      "category":"Museums",
+      "number":"405-236-3100",
+      "site":"https://www.okcmoa.com/",
+      "area":"Oklahoma City",
+      "address":"415 Couch Dr, Oklahoma City, OK 73102",
+      "desc":"The Oklahoma City Museum of Art is one of the leading arts institutions in the region. The Museum presents a dynamic range of exhibitions organized from prestigious museums and collections throughout the world."
+    },
+    {
+      "name":"First Americans Museum",
+      "category":"Museums",
+      "number":"405-594-2100",
+      "site":"https://famok.org/",
+      "area":"Oklahoma City",
+      "address":"659 First Americans Blvd, Oklahoma City, OK 73129",
+      "desc":"The First Americans Museum is a museum in Oklahoma City, Oklahoma, U.S. It was previously known as the American Indian Cultural Center and Museum. It officially opened on September 18, 2021."
+    },
+    {
+      "name":"Sam Noble Oklahoma Museum of Natural History",
+      "category":"Museums",
+      "number":"405-325-7977",
+      "site":"https://samnoblemuseum.ou.edu/",
+      "area":"Norman",
+      "address":"2401 Chautauqua Ave, Norman, OK 73072",
+      "desc":"The Sam Noble Oklahoma Museum of Natural History is the officially designated natural history museum for the State of Oklahoma, located on the campus of the University of Oklahoma."
+    },
+    {
+      "name":"Museum of Osteology",
+      "category":"Museums",
+      "number":"405-814-0006",
+      "site":"https://www.skeletonmuseum.com/",
+      "area":"Oklahoma City",
+      "address":"10301 S Sunnylane Rd, Oklahoma City, OK 73160",
+      "desc":"The Museum of Osteology, located in Oklahoma City, U.S., is a private museum devoted to the study of bones and skeletons. The museum displays over 450 skeletons of animal species from all over the world."
+    },
+    {
+      "name":"Oklahoma Route 66 Museum",
+      "category":"Museums",
+      "number":"580-323-7866",
+      "site":"https://www.okhistory.org/",
+      "area":"Clinton",
+      "address":"2229 W Gary Blvd, Clinton, OK 73601",
+      "desc":"A look at the history, myths, signs, photos & music of the iconic road, plus a diner replica."
+    },
+    {
+      "name":"Factory Obscura",
+      "category":"Attractions",
+      "number":"405-367-1578",
+      "site":"https://www.factoryobscura.com/",
+      "area":"Oklahoma City",
+      "address":"25 NW 9th St, Oklahoma City, OK 73102",
+      "desc":"Factory Obscura is an Oklahoma City-based collaborative company creating immersive experiences that awaken wonder, build community, and make the world better."
+    },
+    {
+      "name":"Oklahoma City Zoo",
+      "category":"Attractions",
+      "number":"405-424-3344",
+      "site":"https://www.okczoo.org/",
+      "area":"Oklahoma City",
+      "address":"2000 Remington Pl, Oklahoma City, OK 73111",
+      "desc":"The Oklahoma City Zoo and Botanical Garden is a zoo and botanical garden located in Oklahoma City's Adventure District in northeast Oklahoma City, Oklahoma."
+    },
+    {
+      "name":"Bricktown Water Taxi",
+      "category":"Attractions",
+      "number":"405-234-8294",
+      "site":"https://bricktownwatertaxi.com/",
+      "area":"Oklahoma City",
+      "address":"111 S Mickey Mantle Dr, Oklahoma City, OK 73104",
+      "desc":"Playful, narrated boat rides with historical information offered on the Bricktown Canal."
+    },
+    {
+      "name":"Blue Whale of Catoosa",
+      "category":"Attractions",
+      "number":"918-857-0676",
+      "site":"https://www.cityofcatoosa.org/page/blue-whale-of-catoosa/",
+      "area":"Catoosa",
+      "address":"2600 OK-66, Catoosa, OK 74015",
+      "desc":"The Blue Whale of Catoosa is a waterfront structure, just east of the American town of Catoosa, Oklahoma, and it has become one of the most recognizable attractions on old Route 66."
+    },
+    {
+      "name":"The Cave House",
+      "category":"Attractions",
+      "number":"918-378-1952",
+      "site":"https://cavehousetulsa.com/",
+      "area":"Tulsa",
+      "address":"1623 Charles Page Blvd, Tulsa, OK 74127",
+      "desc":"Many a Tulsan has likely driven west past downtown, where 3rd Street turns into Charles Page Boulevard, seen the Cave House on the right and wondered... who lives there? What's the inside look like? What is the story with that place, anyway?"
     }
   ]
