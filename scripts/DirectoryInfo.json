@@ -343,6 +343,384 @@
       "desc":"N/A"
     },
     {
+      "name":"Cherokee Nation",
+      "category":"Payment Assistance Agencies",
+      "number":"800-375-8514",
+      "site":"www.cherokee.org",
+      "area":"Statewide",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Department of Human Services (DHS) LIHEAP & ECAP",
+      "category":"Payment Assistance Agencies",
+      "number":"405-487-5483",
+      "site":"http://www.okdhs.org/services/liheap",
+      "area":"Statewide",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Kibois Community Action",
+      "category":"Payment Assistance Agencies",
+      "number":"800-299-4479",
+      "site":"www.kibois.org",
+      "area":"Statewide",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"St. Vincent DePaul",
+      "category":"Payment Assistance Agencies",
+      "number":"405-329-5372",
+      "site":"www.svdpatstm.org",
+      "area":"Statewide",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Chickasaw Nation Social Services",
+      "category":"Payment Assistance Agencies",
+      "number":"580-436-2603",
+      "site":"http://www.chickasaw.net/services.aspx",
+      "area":"Ada",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Apache Tribe of Oklahoma",
+      "category":"Payment Assistance Agencies",
+      "number":"405-247-9493",
+      "site":"http://www.apachetribe.org/",
+      "area":"Anadarko",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Caddo Tribe of Oklahoma",
+      "category":"Payment Assistance Agencies",
+      "number":"405-656-2344",
+      "site":"https://mycaddonation.com/",
+      "area":"Binger",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Bristow Social Services",
+      "category":"Payment Assistance Agencies",
+      "number":"918-367-5400",
+      "site":"http://www.bristowhelps.org/",
+      "area":"Bristow",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Broken Arrow Neighbors",
+      "category":"Payment Assistance Agencies",
+      "number":"918-251-7781",
+      "site":"http://www.baneighbors.org/",
+      "area":"Broken Arrow",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Kiowa Tribe of Oklahoma",
+      "category":"Payment Assistance Agencies",
+      "number":"580-654-6362",
+      "site":"http://www.kiowatribe.org/",
+      "area":"Carnegie",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Cheyenne and Arapaho Tribes",
+      "category":"Payment Assistance Agencies",
+      "number":"800-247-4612",
+      "site":"http://www.c-a-tribes.org/",
+      "area":"Concho",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Choctaw Nation",
+      "category":"Payment Assistance Agencies",
+      "number":"800-522-6170",
+      "site":"http://www.choctawnation.com/",
+      "area":"Durant",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Hope Center of Edmond",
+      "category":"Payment Assistance Agencies",
+      "number":"405-348-1340",
+      "site":"https://hopecenterofedmond.com/",
+      "area":"Edmond",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Western OK Family Care Center",
+      "category":"Payment Assistance Agencies",
+      "number":"580-225-5500",
+      "site":"http://wofccok.org/",
+      "area":"Elk City",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"CDSA Community Solutions",
+      "category":"Payment Assistance Agencies",
+      "number":"580-242-6131",
+      "site":"https://cdsaok.org/",
+      "area":"Enid",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"First Baptist Church (Idabel)",
+      "category":"Payment Assistance Agencies",
+      "number":"580-286-3379",
+      "site":"http://fbcidabel.org/",
+      "area":"Idabel",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"First United Methodist Church (Kingfisher)",
+      "category":"Payment Assistance Agencies",
+      "number":"405-375-3286",
+      "site":"http://www.umc.org/",
+      "area":"Kingfisher",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Delta Community Action Foundation",
+      "category":"Payment Assistance Agencies",
+      "number":"405-756-1100",
+      "site":"http://www.deltacommunityaction.org/",
+      "area":"Lindsay",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Creek Nation",
+      "category":"Payment Assistance Agencies",
+      "number":"800-482-1979",
+      "site":"http://www.mcn-nsn.gov/",
+      "area":"Muscogee",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Alameda Church of Christ",
+      "category":"Payment Assistance Agencies",
+      "number":"405-321-0788",
+      "site":"http://www.alamedacofc.org/",
+      "area":"Norman",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Bethel Baptist Church (Norman)",
+      "category":"Payment Assistance Agencies",
+      "number":"405-329-3749",
+      "site":"http://bbcnorman.com/",
+      "area":"Norman",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"McFarlin Methodist Church (Norman)",
+      "category":"Payment Assistance Agencies",
+      "number":"405-321-3484",
+      "site":"http://mcfarlinumc.org/",
+      "area":"Norman",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Mission Norman",
+      "category":"Payment Assistance Agencies",
+      "number":"405-321-8880",
+      "site":"N/A",
+      "area":"Norman",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"St. Thomas MOre",
+      "category":"Payment Assistance Agencies",
+      "number":"405-321-0990",
+      "site":"https://stm-ou.org/",
+      "area":"Norman",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Community Action Agency - Oklahoma City",
+      "category":"Payment Assistance Agencies",
+      "number":"405-232-0199",
+      "site":"http://www.caaofokc.org/",
+      "area":"Oklahoma City",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Homeless Alliance",
+      "category":"Payment Assistance Agencies",
+      "number":"405-415-8410",
+      "site":"https://homelessalliance.org/",
+      "area":"",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Neighborhood Services Organization",
+      "category":"Payment Assistance Agencies",
+      "number":"405-236-0452",
+      "site":"http://nsookc.org/",
+      "area":"Oklahoma City",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"The Hope Center",
+      "category":"Payment Assistance Agencies",
+      "number":"405-634-4400",
+      "site":"http://www.hopecsi.org/",
+      "area":"Oklahoma City",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Deep Fork Community Action",
+      "category":"Payment Assistance Agencies",
+      "number":"918-756-2826",
+      "site":"deepforkcommunityaction.org",
+      "area":"Okmulgee",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Muscogee (Creek) Nation",
+      "category":"Payment Assistance Agencies",
+      "number":"800-482-1979",
+      "site":"http://www.mcn-nsn.gov/",
+      "area":"Okmulgee",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Pawnee Tribe of Oklahoma",
+      "category":"Payment Assistance Agencies",
+      "number":"918-762-3621",
+      "site":"http://www.pawneenation.org/",
+      "area":"Pawnee",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Iowa Tribe",
+      "category":"Payment Assistance Agencies",
+      "number":"405-547-2402",
+      "site":"http://bahkhoje.com/",
+      "area":"Perkins",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"New Emergency Resource Agency (Food Bank)",
+      "category":"Payment Assistance Agencies",
+      "number":"580-765-5372",
+      "site":"http://www.nera.frc.org/",
+      "area":"Ponca City",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Otoe Missouri Tribe",
+      "category":"Payment Assistance Agencies",
+      "number":"877-692-6863",
+      "site":"http://www.omtribe.org/",
+      "area":"Red Rock",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Caring Community Friends",
+      "category":"Payment Assistance Agencies",
+      "number":"918-224-6464",
+      "site":"http://www.caringcommunityfriends.org/",
+      "area":"Sapulpa",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"INCA-Indian Nation Community Action",
+      "category":"Payment Assistance Agencies",
+      "number":"580-371-2352",
+      "site":"http://www.incacaa.org/",
+      "area":"Tishomingo",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Helping Hands",
+      "category":"Payment Assistance Agencies",
+      "number":"(918) 582-1356",
+      "site":"N/A",
+      "area":"Tulsa",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Restore Hope Ministries",
+      "category":"Payment Assistance Agencies",
+      "number":"918-528-9008",
+      "site":"https://erap.restorehope.org/",
+      "area":"Tulsa",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Salvation Army",
+      "category":"Payment Assistance Agencies",
+      "number":"918-582-7201",
+      "site":"http://www.salarmytulsa.org/",
+      "area":"Tulsa",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Tulsa Day Center",
+      "category":"Payment Assistance Agencies",
+      "number":"918-583-5588",
+      "site":"https://tulsadaycenter.org/",
+      "area":"Tulsa",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Church of Christ",
+      "category":"Payment Assistance Agencies",
+      "number":"580-256-7156",
+      "site":"http://www.woodwardchurchofchrist.com/",
+      "area":"Woodward",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
+      "name":"Wyandotte Nation Indian Tribe",
+      "category":"Payment Assistance Agencies",
+      "number":"800-256-2539",
+      "site":"http://www.wyandotte-nation.org/",
+      "area":"Wyandotte",
+      "address":"N/A",
+      "desc":"N/A"
+    },
+    {
       "name":"Myriad Botanical Gardens",
       "category":"Park",
       "number":"405-445-7080",
@@ -379,7 +757,7 @@
       "desc":"located south of Myriad Botanical Gardens, it continues south close to the shore of the Oklahoma River. Featuring a variety of engaging experiences for visitors including ornamental gardens and woodlands, a 3.7 acre lake, children’s playground and nature play area, interactive water fountains, seasonal roller rink, dog park, sports courts, picnic grove, restaurant, and performance stage and great lawn, the Park has something for everyone."
     },
     {
-      "name":"wheeler park",
+      "name":"Wheeler Park",
       "category":"Park",
       "number":"405-609-2994",
       "site":"https://www.wheelerdistrict.com/",
@@ -388,9 +766,9 @@
       "desc":"Visitors can enjoy award-winning restaurants and breweries, locally owned artisan shops, lively events, and the iconic Ferris Wheel—all part of Wheeler’s long-term vision for a dynamic, connected community."
     },
     {
-      "name":"wiley post park",
+      "name":"Wiley Post Park",
       "category":"Park",
-      "number":"(405) 297-3882. ",
+      "number":"405-297-3882. ",
       "site":"https://www.okc.gov/Community-Recreation/Rentals-Reservations/Event-Centers/Wiley-Post-Event-Center",
       "area":"Oklahoma City",
       "address":"2021 S Robinson Ave",
@@ -417,7 +795,7 @@
     {
       "name":"Mitch Park",
       "category":"Park",
-      "number":"(405) 216-7646",
+      "number":"405-216-7646",
       "site":"https://www.edmondok.gov/Facilities/Facility/Details/19",
       "area":"Edmond",
       "address":"1501 W. Covell Road Edmond, OK 73003",
@@ -432,5 +810,4 @@
       "address":"19225 E 578 Rd Colcord, OK 74338",
       "desc":"Located near the Oklahoma/Arkansas border in the scenic Ozark Highlands region of northeast Oklahoma, Natural Falls State Park features a stunning 77-foot waterfall cascading through rock formations and creating a hidden, serene atmosphere at the bottom of a narrow V-shaped valley. A railed observation platform allows hikers to overlook the falls and another observation deck with seating is located at the foot of the falls offering two vantage points to enjoy one of the most scenic wonders in the state."
     }
-    
   ]
