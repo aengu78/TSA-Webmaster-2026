@@ -15,82 +15,8 @@
     <link rel="icon" type="image/x-icon" href="../icons/text (1).svg">    
     <title>DirDoc</title>
 </head>
-<body style = "background-image: url(../images/AdobeStock_76071575.jpeg); background-position: center;">
+<body style = "background-image: url(../images/AutomobileAlley_13_f370317d-bd72-43aa-bc86-c9206af3828d.jpg); background-position: center;">
    <style>
-
-  /* made the cards look pretty*/
-    .cards-wrapper {
-        display: grid;
-        gap: .25rem;
-        grid-template-columns: repeat(auto-fill, minmax(325px, 2fr));
-        gap: 2vw;
-        margin-top: 1rem;
-        height: 100%;
-        max-width: 80vw;
-    
-}
-.cards-made{
-    background-color: white;
-    border-radius: 2vh;
-    height: 100%;
-    flex: 1;
-    padding: 1em;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
-    max-height: 30vh;
-    overflow-y: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        overflow-wrap: break-word;
-        opacity: 1;
-        transform: translateY(2em);
-        transition: all 1s ease-in-out;
-}
-
-@media(prefers-reduced-motion) {
-    .cards-made {
-        transition: none;
-    }
-}
-
-.cards-made.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.cards-made::-webkit-scrollbar, .highlight-desc::-webkit-scrollbar-button { display: none; }
-
-
-
-#directory-search-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.org-names {
-    color: rgba(33, 15, 63, 1);
-    display: inline-block;
-    margin: .5vh 0 2.5vh 1vw;
-    font-family: "Josefin Slab", 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
-    
-}
-
-.service-details {
-        background-color: rgb(223, 228, 233);
-        border-radius: 2vh;
-        box-sizing: border-box;
-        height: auto;
-        padding: 1em;
-        font-family: Manrope, Roboto, Arial;
-    font-size: 1rem;       
-}
-
-
 
 .body {
         color:rgba(33, 15, 63, 0.629);
@@ -133,9 +59,10 @@
 
         <div id = "mobile-nav" class = "mobile" style = "" onclick = "show()"> 
             <div class = "page-link-div-mobile other-page" ><a href = "../index.html" class = "text-shadowed ">Okla-Home </a></div>
-            <div class = "page-link-div-mobile current-page" ><a href = "directory.html" class = "text-shadowed ">Directory &starf; </a></div>
+            <div class = "page-link-div-mobile other-page" ><a href = "directory.html" class = "text-shadowed ">Directory</a></div>
             <div class = "page-link-div-mobile other-page" ><a href = "highlights.html" class = "text-shadowed ">Highlights</a></div>
             <div class = "page-link-div-mobile other-page" ><a href = "references.html" class = "text-shadowed ">References</a></div>
+            <div class = "page-link-div-mobile current-page" ><a href = "feedback.html" class = "text-shadowed ">Feedback &starf; </a></div>
         </div>
 
     <main>
@@ -144,7 +71,7 @@
         <div class = "bg">
             <div class = shadow-bg subpage-title-div>
                 <h1 class = "subpage-title">
-                    Directory
+                    Feedback
                 </h1>
             </div>
         </div>
@@ -152,19 +79,21 @@
         <div class = "content-fade">
         </div>
         <div class = "content-wrapper">
-            <div id = "directory-search-div">
-                    <h3 style = "margin-bottom: 0;" class = "text-shadowed"><label><search_heading>Find what <em>you</em> need.</search_heading></label></h3>
-                    <input type="search" id="directory-search-bar" placeholder = "Try searching for 'food' or 'housing'!" data-search>
+            <div id = "suggestion-div" style = "box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;">
+                <h3 class = "text-shadowed" change-sub>Have an idea?</h3>
+                <p class = "text-shadowed" change-sub>Send us suggestions for what to add to the page below!</p>
+
+                <div style = "display: flex; flex-direction: row; justify-content: center;">
+                    <input type = "text" id = "suggestion-input" placeholder = "Name" clear-sub> 
+                    <div style = "width: 3rem"></div>
+                    <input type = "text" id = "suggestion-input" placeholder = "Email" clear-sub>
+                </div>
+
+                <input type = "text" id = "suggestion-input" placeholder = "We'd love to hear your thoughts!" clear-sub>
+                <button class = "homepage-button" id = "suggestion-submit" style = "align-self: end;"clear-sub suggestion-but>
+                    Submit
+                </button>
             </div>
-            <div class="cards-wrapper" data-user-cards-container></div>
-            <template data-user-template>
-                 <div class="cards-made">
-                     <div class="org-names" data-header></div>
-                     <div class="body" >
-                        <div class="service-details"data-body></div>
-                     </div>
-                 </div>
-            </template>
         </div>
 
         <div class = "space-filler" style = ""></div>
