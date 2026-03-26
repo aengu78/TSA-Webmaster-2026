@@ -192,12 +192,15 @@
             <div id = "suggestion-div" style = "box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;">
                 <h3 class = "text-shadowed" change-sub>Have an idea?</h3>
                 <p class = "text-shadowed" change-sub>Send us suggestions for what to add to the page below!</p>
-                <input type = "text" id = "suggestion-input" placeholder = "We'd love to hear your thoughts!" clear-sub>
-                <button class = "homepage-button" id = "suggestion-submit" style = "align-self: end;"clear-sub suggestion-but>
-                    Submit
-                </button>
+                <!--<input type = "text" id = "suggestion-input" placeholder = "We'd love to hear your thoughts!" clear-sub>-->
+                
+                <form action="https://formsubmit.co/contact.oklahome@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="Suggestion" placeholder = "We'd love to hear your thoughts!" required clear-sub>
+                    <!--<input type="email" name="email" required>-->
+                    <button class = "homepage-button" id = "suggestion-submit" style = "align-self: end;"clear-sub suggestion-but>Submit</button>
+                </form>
             </div>
-            
         </div>
 
         
