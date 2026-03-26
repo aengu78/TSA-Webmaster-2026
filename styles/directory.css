@@ -42,6 +42,38 @@
     background-color: white;
     padding: .5rem;
 }
+.card:nth-child(odd) { position: relative; /* Needed for the 'left' property to work relative to its normal position */
+    animation-name: slideFromLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; /* Stays at the end point of the animation */
+}
+.card:nth-child(even) {
+    position: relative; /* Needed for the 'left' property to work relative to its normal position */
+    animation-name: slideFromRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; /* Stays at the end point of the animation */
+}
+/* Optional: Fun hover effect for all cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 .hide {
   display: none !important;
+}
+@keyframes slideFromRight {
+    0% {
+        right: -100%; /* Start off-screen */
+    }
+    100% {
+        right: 0; /* End at the final position */
+    }
+}
+@keyframes slideFromLeft {
+    0% {
+        left: -100%; /* Start off-screen */
+    }
+    100% {
+        left: 0; /* End at the final position */
+    }
 }

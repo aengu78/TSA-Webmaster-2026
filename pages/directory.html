@@ -99,8 +99,20 @@
 
 .orgs-site-link {
     overflow: auto; 
+
 }
-        
+
+.from-right {
+    opacity: 0;
+    transform: translateX(10vw);
+    transition: all 1s;
+}
+
+.from-right.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+
     </style>
     <header>
             <div id = "search-div">
@@ -155,7 +167,7 @@
             </div>
             <div class="cards-wrapper" data-user-cards-container></div>
             <template data-user-template>
-                 <div class="cards-made">
+                 <div class="cards-made card" >
                      <div class="org-names" data-header></div>
                      <div class="body" >
                         <div class="service-details"data-body></div>
