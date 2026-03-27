@@ -106,9 +106,15 @@ h1,  h2 {
     position: absolute;
     bottom: 0;
     left: 50%;
-    top: 90%;
+    top: 80%;
     transform: translateX(-50%);
-    height: 10vh;
+    height: 7vh;
+    border: 2px white solid;
+    background-color: rgba(33, 15, 63, 0.315);
+    box-shadow: rgba(8, 4, 29, 0.926) 1px 1px 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
 }
 #home-block-1, #home-block-3{
     background-color: rgb(23, 19, 43);
