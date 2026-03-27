@@ -42,11 +42,11 @@
             
 
         </header>
-        <div id = "nav-opener" class = "mobile" style = "" onclick = "show()">
+        <div id = "nav-opener" class = "mobile"  onclick = "show()">
             <img src = "../images/hamburger-menu-svgrepo-com.svg" style = "height: 4vh; display: inline-block">
         </div>
 
-        <div id = "mobile-nav" class = "mobile" style = "" onclick = "show()"> 
+        <div id = "mobile-nav" class = "mobile"  onclick = "show()"> 
             <div class = "page-link-div-mobile current-page" ><a href = "index.html" class = "text-shadowed ">Okla-Home &starf; </a></div>
             <div class = "page-link-div-mobile other-page" ><a href = "/pages/directory.html" class = "text-shadowed ">Directory </a></div>
             <div class = "page-link-div-mobile other-page" ><a href = "/pages/highlights.html" class = "text-shadowed ">Highlights</a></div>
@@ -192,6 +192,20 @@
 
         </div>
 
+        <div id = "home-block-4" class = "home-block">
+            <div id = "suggestion-div" style = "box-shadow: rgba(88, 52, 105, 0.295) 0px 1px 10px;">
+                <h3 class = "text-shadowed" change-sub>Have an idea?</h3>
+                <p class = "text-shadowed" change-sub>Send us suggestions for what to add to the page below!</p>
+                <!--<input type = "text" id = "suggestion-input" placeholder = "We'd love to hear your thoughts!" clear-sub>-->
+                
+                <form action="https://formsubmit.co/contact.oklahome@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="Suggestion" placeholder = "We'd love to hear your thoughts!" required clear-sub>
+                    <!--<input type="email" name="email" required>-->
+                    <button class = "homepage-button" id = "suggestion-submit" style = "align-self: end;"clear-sub suggestion-but>Submit</button>
+                </form>
+            </div>
+        </div>
 
         
     </main>

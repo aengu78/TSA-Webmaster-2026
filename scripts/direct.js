@@ -25,7 +25,7 @@ fetch("../scripts/DirectoryInfo.json")
       header.textContent = user.name
       body.append("Description: "+user.desc, "\n","Category: "+ user.category, "\n", "Area: "+user.area, "\n", "Address: "+user.address, "\n"+"Site: ")
 
-      // 👇 create clickable site link
+      // create clickable site link
       const siteLink = document.createElement("a")
       siteLink.href = user.site.startsWith("http") ? user.site : "https://" + user.site
       siteLink.textContent = user.site
