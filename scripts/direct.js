@@ -38,6 +38,8 @@ fetch("../scripts/DirectoryInfo.json")
       return { name: user.name, email: user.desc, element: card }
     })
   })
+
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry)=> {
         if(entry.isIntersecting) {
@@ -50,5 +52,7 @@ const observer = new IntersectionObserver((entries) => {
 
 }, {})
 
-const slideImages = document.querySelectorAll('#cards-made');
+const slideImages = document.querySelectorAll('.cards-made');
 slideImages.forEach(el => observer.observe(el));
+
+

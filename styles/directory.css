@@ -42,15 +42,18 @@
     background-color: white;
     padding: .5rem;
 }
+
+/* nth-child cards modified below by aeon to move up on scroll. */
+
 .card:nth-child(odd) { position: relative; /* Needed for the 'left' property to work relative to its normal position */
     animation-name: slideFromLeft;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards; /* Stays at the end point of the animation */
 }
 .card:nth-child(even) {
     position: relative; /* Needed for the 'left' property to work relative to its normal position */
     animation-name: slideFromRight;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards; /* Stays at the end point of the animation */
 }
 /* Optional: Fun hover effect for all cards */
@@ -63,17 +66,19 @@
 }
 @keyframes slideFromRight {
     0% {
-        right: -100%; /* Start off-screen */
+        bottom: -20%; /* Start off-screen */
     }
     100% {
-        right: 0; /* End at the final position */
+        bottom: 0; /* End at the final position */
     }
 }
 @keyframes slideFromLeft {
     0% {
-        left: -100%; /* Start off-screen */
+        bottom: -20%; /* Start off-screen */
     }
     100% {
-        left: 0; /* End at the final position */
+        bottom: 0; /* End at the final position */
     }
 }
+
+/*end of aeon modifications*/
